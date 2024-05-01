@@ -14,7 +14,7 @@ LANDING_PAGE = "README-Theo"
 LANDING_TITLE = "Knowledge-Base for Theo at TUM"
 PYTHON_VERSION = "3.8"
 # (REQUIRED) Site repo URL
-REPO_URL = "https://github.com/alKerim/TheoVault
+REPO_URL = "https://github.com/alKerim/TheoVault"
 # (Optional) Site title in navbar
 SITE_TITLE = "Theo Searchable Docs"
 # (Optional) Site title in browser tab (leave blank to use SITE_TITLE)
