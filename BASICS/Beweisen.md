@@ -34,3 +34,9 @@ Falls $A \Rightarrow B$ zu zeigen ist, zeige $\neg A \Leftarrow \neg B$ oder bez
 Selbsterklärend wenn 
 
 ## Negieren und [[#Beweisen dass eine Aussage wahr ist]]
+
+
+
+______
+# Andere Guides+Quellen zum Beweisen-Lernen
+[[how-to-prove-it_book.pdf]] -> [Download zum PDF](https://users.metu.edu.tr/serge/courses/111-2011/textbook-math111.pdf)
