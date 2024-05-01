@@ -1,0 +1,1 @@
+Das leere Wort (das einzige [[Wort]] der Länge 0 ) wird mit $\epsilon$ bezeichnet.
