@@ -9,7 +9,7 @@ LANDING_BUTTON = "Overview"
 # (Optional) Site description on landing page
 LANDING_DESCRIPTION = "Densely linked Knowledge-Base for Theo at TUM, with "
 # (REQUIRED) The Markdown page linked to landing page button (e.g. put home for ./home.md)
-LANDING_PAGE = "Overview"
+LANDING_PAGE = "README-Theo"
 # (Optional) Site title on landing page
 LANDING_TITLE = "Knowledge-Base for Theo at TUM"
 PYTHON_VERSION = "3.8"
