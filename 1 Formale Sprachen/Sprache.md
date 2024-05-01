@@ -1,5 +1,5 @@
-Eine Teilmenge $L \subseteq \Sigma^*$  ist eine (formale) Sprache.
-$\Sigma^*$ ist die [[Menge aller Wörter]].
+Eine Teilmenge $L \subseteq \Sigma^{*}$ ist eine (formale) Sprache.
+$\Sigma^{*}$ ist die [[Menge aller Wörter]].
 
 
 # Beispielsprachen
@@ -28,7 +28,7 @@ Seien $A, B \subseteq \Sigma^*$
 - Konkatenation: $A B=\{u v \mid u \in A \wedge v \in B\}$
 	Bsp: $\{a b, b\}\{a, b b\}=\{a b a, a b b b, b a, b b b\}$
 	NB: $\{a b, b\} \times\{a, b b\}=\{(a b, a),(a b, b b),(b, a),(b, b b)\}$
-- $A^n=\left\{w_1 \ldots w_n \mid w_1, \ldots, w_n \in A\right\}=\underbrace{A \cdots A}_n$
+- $A^{n}=\left\{w_1 \ldots w_n \mid w_1, \ldots, w_n \in A\right\}=\underbrace{A \cdots A}_{n}$
 	Bsp: $\{a b, b a\}^2=\{a b a b, a b b a, b a a b, b a b a\}$
 	Rekursiv: $A^0=\{\epsilon\}$ und $A^{n+1}=A A^n$
 - $A^*=\left\{w_1 \ldots w_n \mid n \geq 0 \wedge w_1, \ldots, w_n \in A\right\}=\bigcup_{n \in \mathbb{N}} A^n$
