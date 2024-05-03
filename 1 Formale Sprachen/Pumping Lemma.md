@@ -5,6 +5,10 @@ Sei $R \subseteq \Sigma^*$ regulär. Dann gibt es ein $n>0$, so dass sich jedes 
 - $v \neq \epsilon$,
 - $|u v| \leq n$, und
 - $\forall i \geq 0 . u v^i w \in R$.
+
+Fall 1: Alle drei Bedingungen sind true: KEINE Aussage möglich!!
+Fall 2: Eine oder mehr der Bedingungen treffen nicht zu: Sprache ist nicht regulär!!
+
 ### Easy Explanation
 Wir nehmen Bedingung 1 und 2.
 also $v \neq \epsilon$, und $|u v| \leq n$
@@ -13,7 +17,7 @@ Dann wählen wir zwei weitere Sachen:
 1. ein spezifisches $u$ und spezifisches $v$
 2. und ein $i$ , sodass $uv^{i}w \notin R$
 
-
+Wir wählen also mit Absicht oder Versuchen ein Wort zu wählen sodass es nicht mehr in der ursprünglichen Sprache ist.
 
 
 ### Logische Struktur: für jede reguläre Sprache $R$

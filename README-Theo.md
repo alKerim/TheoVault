@@ -5,6 +5,8 @@ There are many links within the notes, which can help you access some definition
 
 # Useful Overviews
 [[Organisatorisches]]
+
+[Website - THEO Offizielle Blätter Übersicht](https://teaching.model.in.tum.de/2024ss/theo/ex/sheets.html)
 ____
 ### Wichtig
 [[Basics Sheet]]
