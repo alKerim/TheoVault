@@ -1,6 +1,8 @@
 
 Für jeden DFA $M$ gibt es eine rechtslineare Grammatik $G$ mit $L(M)=L(G)$.
 
+via [[theo-folien-handout.pdf#page=48|Satz 3.13]]
+
 
 # Vorgehen
 TODO: aus Vorlesung noch eintragen:
@@ -22,6 +24,8 @@ ist nun grammatische Regel: (S->aB)
 
 
 # Beweis
+[[theo-folien-handout.pdf#page=48|Satz 3.13]]
+
 Sei $M=\left(Q, \Sigma, \delta, q_0, F\right)$. Die Grammatik $G=(V, T, P, S)$ mit
 - $V=Q, T=\Sigma, S=q_0$,
 - $\left(q_1 \rightarrow a q_2\right) \in P \operatorname{gdw} \delta\left(q_1, a\right)=q_2$,

@@ -3,6 +3,8 @@
 
 
 # Rechtslineare Grammatik -> NFA
+via [[theo-folien-handout.pdf#page=41|Satz 3.9]]
+
 $A \rightarrow a$ :
 Formal:
 $q_f \in \delta(X, a) \operatorname{gdw}(X \rightarrow a) \in P$
@@ -17,6 +19,12 @@ Draw how it would go ^293a00
 
 $A \rightarrow \epsilon$:
 Dann setze $F=\left\{S, q_f\right\}$.
+
+Aufgabe: Und wenn $S \rightarrow a X|a Y| \epsilon$ ?
+-> Dann gibt es 2 Endzustände, nämlich jetzt zusatzlich noch der Startzustand
+
+
+
 
 ### Formaler Beweis
 Sei $G=(V, \Sigma, P, S)$ eine rechtslineare Grammatik ohne die Produktion $S \rightarrow \epsilon$. Definiere den NFA $A=\left(Q, \Sigma, \delta, q_0, F\right)$ mit
@@ -38,6 +46,7 @@ Damit gilt $L(G)=L(A)$. (Fall mit $S \rightarrow \epsilon$ : Aufgabe)
 
 
 # NFA -> Rechtslineare Grammatik 
+
 Als Gleichungssystem, mit **Ardens Lemma**
 Siehe [[theo-folien-handout.pdf#page=68|hier]]
 

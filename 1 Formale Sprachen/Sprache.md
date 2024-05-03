@@ -31,7 +31,7 @@ Seien $A, B \subseteq \Sigma^*$
 - $A^{n}=\left\{w_1 \ldots w_n \mid w_1, \ldots, w_n \in A\right\}=\underbrace{A \cdots A}_{n}$
 	Bsp: $\{a b, b a\}^2=\{a b a b, a b b a, b a a b, b a b a\}$
 	Rekursiv: $A^0=\{\epsilon\}$ und $A^{n+1}=A A^n$
-- $A^*=\left\{w_1 \ldots w_n \mid n \geq 0 \wedge w_1, \ldots, w_n \in A\right\}=\bigcup_{n \in \mathbb{N}} A^n$
+- $A^{*}=\left\{w_1 \ldots w_n \mid n \geq 0 \wedge w_1, \ldots, w_n \in A\right\}=\bigcup_{n \in \mathbb{N}} A^n$
 	Bsp: $\{01\}^*=\{\epsilon, 01,0101,010101, \ldots\} \neq\{0,1\}^*$
 	Leere Wort ist immer enthalten in $A^*$
 - $A^{+}=A A^*=\bigcup_{n \geq 1} A^n$
@@ -49,4 +49,4 @@ Bsp: $\Sigma^{+}=$Menge aller nicht-leeren Wörter über $\Sigma$
 - $A(B \cup C)=A B \cup A C$
 - $(A \cup B) C=A C \cup B C$
 - **Achtung**: i.A. gilt $A(B \cap C)=A B \cap A C$ nicht. ^11dae2
-- $A^* A^*=A^*$
+- $A^{*} A^{*}=A^{*}$

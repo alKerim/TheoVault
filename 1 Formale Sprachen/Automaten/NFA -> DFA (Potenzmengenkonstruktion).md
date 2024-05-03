@@ -5,6 +5,8 @@ Konvertieren sie folgenden [[NFA - Nichtdeterministische endliche Automaten|NFA]
 Lösung:
 ![[Potenzmengenkonstruktion-Beispiel.jpeg]]
 
++sehr wichtig: überall wo es leer bleibt ????
+1 Endzustand in einem Merged-Zustand ist genug damit es ein Endzustand ist.
 
 # Formale Definition:
 ### Beweis

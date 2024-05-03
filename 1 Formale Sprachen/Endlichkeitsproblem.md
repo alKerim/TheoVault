@@ -1,0 +1,3 @@
+Sei $D$ ein DFA, NFA, RE, rechtslineare Grammatik ....
+
+Endlichkeitsproblem: Gegeben $D$, ist $L(D)$ endlich?

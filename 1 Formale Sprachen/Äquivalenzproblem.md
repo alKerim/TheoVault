@@ -1,0 +1,3 @@
+Sei $D$ ein DFA, NFA, RE, rechtslineare Grammatik ....
+
+Äquivalenzproblem: Gegeben $D_1, D_2$, gilt $L\left(D_1\right)=L\left(D_2\right)$ ?
