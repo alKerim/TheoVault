@@ -40,7 +40,7 @@ d. Für eine beliebige Grammatik $G^{\prime}$, die durch das Hinzufügen einer P
 - c. Wahr:
   Sei $w \in L\left(G^{\prime}\right)$ beliebig, und $S$ das Startsymbol von $G$. Nach Definition von $L\left(G^{\prime}\right)$ gilt also $S \rightarrow_{G^{\prime}}^* w$. Da wir für $G^{\prime}$ aber nur eine Produktion entfernt haben, gilt $S \rightarrow_G^* w$ ebenfalls, und somit $w \in L(G)$.
   In meinen Worten zum Verständnis: Also im Prinzip wenn ein Wort $w \in L(G')$ dann auch $w \in L(G)$, weil nur eine Produktion entfernt wurde.
-  - d. Wenn $G^{\prime}$ durch das Hinzufügen einer Produktion zu $G$ entsteht, dann ergibt sich $G$ durch das Entfernen einer Produktion aus $G^{\prime}$. Damit können wir das auf die aus der c)-Aufgabe bekannte Aussage zurückführen.
+- d. Wenn $G^{\prime}$ durch das Hinzufügen einer Produktion zu $G$ entsteht, dann ergibt sich $G$ durch das Entfernen einer Produktion aus $G^{\prime}$. Damit können wir das auf die aus der c)-Aufgabe bekannte Aussage zurückführen.
 
 
 ___
