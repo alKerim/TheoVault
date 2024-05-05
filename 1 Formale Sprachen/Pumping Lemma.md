@@ -53,15 +53,15 @@ $L=\{0^{m^2} \mid m \geq 0\}$ ist nicht regulär.
 Beweis:
 Angenommen, $L$ sei doch regulär.
 Sei $n$ eine Pumping-Lemma-Zahl für $L$.
+
 Wähle $z=0^{n^2} \in L$. Sei $u v w$ eine Zerlegung von $z$ mit
-$$\begin{equation*}
-1 \leq|v| \leq|u v| \leq n
-\end{equation*}$$
+$1 \leq|v| \leq|u v| \leq n$
 
-Wir zeigen $u v^2 w \notin L$. D.h., wir beweisen, dass $\left|u v^2 w\right|$ keine Quadratzahl ist. Mit
+Wir zeigen $u v^2 w \notin L$. D.h., wir beweisen, dass $\left|u v^2 w\right|$ keine Quadratzahl ist. 
+Mit
 $n^2=|z|=|u v w|<\left|u v^2 w\right| \leq n^2+n<n^2+2 n+1=(n+1)^2$
-
-gilt $n^2<\left|u v^2 w\right|<(n+1)^2$. Zwischen $n^2$ und $(n+1)^2$ liegt keine Quadratzahl.
+gilt:
+$n^2<\left|u v^2 w\right|<(n+1)^2$. Zwischen $n^2$ und $(n+1)^2$ liegt keine Quadratzahl.
 
 
 
