@@ -10,11 +10,12 @@ Fall 1: Alle drei Bedingungen sind true: KEINE Aussage möglich!!
 Fall 2: Eine oder mehr der Bedingungen treffen nicht zu: Sprache ist nicht regulär!!
 
 ### Easy Explanation
-Wir nehmen Bedingung 1 und 2.
-also $v \neq \epsilon$, und $|u v| \leq n$
+Wir nehmen Bedingung 1 und 2,
+also $v \neq \epsilon$, und $|u v| \leq n$,
+und wählen $v,n$ so dass die Bedingungen 1 und 2 erfüllt sind.
 
 Dann wählen wir zwei weitere Sachen:
-1. ein spezifisches $u$ und spezifisches $v$
+1. (ein spezifisches $u$) und ($v$ ist sowieso schon $v=\epsilon$)
 2. und ein $i$ , sodass $uv^{i}w \notin R$
 
 Wir wählen also mit Absicht oder Versuchen ein Wort zu wählen sodass es nicht mehr in der ursprünglichen Sprache ist.

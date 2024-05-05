@@ -50,3 +50,34 @@ Bsp: $\Sigma^{+}=$Menge aller nicht-leeren Wörter über $\Sigma$
 - $(A \cup B) C=A C \cup B C$
 - **Achtung**: i.A. gilt $A(B \cap C)=A B \cap A C$ nicht. ^11dae2
 - $A^{*} A^{*}=A^{*}$
+
+
+
+
+# Endliche / Unendliche Sprache
+### Endlich
+Eine Sprache wird als endlich bezeichnet, wenn sie eine endliche Anzahl von Wörtern enthält. Zum Beispiel ist die Sprache $\{a, a a, a a a\}$ endlich, weil sie genau drei Wörter enthält.
+
+**Endliche Sprachen** können immer von einem endlichen Automaten ([[Endliche Automaten]], [[Endliche Automaten und reguläre Ausdrucke]]) akzeptiert werden, da der Automat nur eine endliche Anzahl von Zuständen benötigt, um jedes Wort in der Sprache zu erkennen
+
+##### Beispiel endliche Sprache
+$S \rightarrow  b \mid a$
+
+### Unendlich
+Eine Sprache ist unendlich, wenn sie unendlich viele Wörter enthält. Beispielsweise ist die Sprache aller Wörter über dem Alphabet $\{a\}$, also $\{a, a a, a a a, \ldots\}$, unendlich.
+
+
+
+Produktion:
+- **Unendliche Sprachen** können von verschiedenen Typen von Automaten erkannt werden, abhängig von ihrer Komplexität. Zum Beispiel kann ein einfacher deterministischer endlicher Automat ([[DFA - Deterministische endliche Automaten|DFA]]) oder ein nichtdeterministischer endlicher Automat ([[NFA - Nichtdeterministische endliche Automaten|NFA]]) viele unendliche Sprachen erkennen, aber nicht alle. Manche unendliche Sprachen benötigen leistungsfähigere Rechenmodelle wie Kellerautomaten oder Turingmaschinen, insbesondere wenn sie eine komplexere Struktur haben.
+- Unendliche Sprachen benötigen typischerweise rekursive Produktionsregeln in Grammatiken, um eine unendliche Anzahl von Wörtern zu generieren. Diese Sprachen können oft durch [[Kontextfreie Grammatiken|kontextfreie]] oder kontextsensitive Grammatiken beschrieben werden, abhängig von ihrer spezifischen Struktur und den benötigten Regeln.
+
+##### Beispiel unendliche Sprache
+$S \rightarrow a S \mid b$
+
+##### Beispiel unendliche Sprache -> endliche Sprache
+Nehmen wir $S \rightarrow a S \mid b$. Durch Löschen von $a$ erhalten wir $S \rightarrow S \mid b$. [^1]
+
+
+
+[^1]: Q1.6. von [[Quiz 1]]

@@ -31,7 +31,7 @@ Falls $A \Rightarrow B$ zu zeigen ist, zeige $\neg A \Leftarrow \neg B$ oder bez
 
 # Widerlegen einer Aussage
 ## Angeben eines Gegenbeispiels
-Selbsterklärend wenn 
+Selbsterklärend
 
 ## Negieren und [[#Beweisen dass eine Aussage wahr ist]]
 

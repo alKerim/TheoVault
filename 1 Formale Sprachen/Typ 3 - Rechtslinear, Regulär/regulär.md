@@ -3,3 +3,5 @@ Eine Sprache ist **regulär** gdw sie von einem [[RE - Reguläre Ausdrücke|Regu
 Eine Sprache ist **regulär** gdw sie von einer [[Rechtslineare Grammatiken|Rechtslineare Grammatik]] erzeugt wird.
 
 Jede [[endliche Sprache]] ist **regulär**.
+
+Eine reguläre Sprache ist unter folgender [[Abschlusseigenschaften regulärer Sprachen|Abschlusseigenschaften]] **regulär**.
