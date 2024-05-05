@@ -80,4 +80,10 @@ Nehmen wir $S \rightarrow a S \mid b$. Durch Löschen von $a$ erhalten wir $S \r
 
 
 
+
+
+# Sprachen Beispiele
+[[Sprachen Beispiele]]
+
+
 [^1]: Q1.6. von [[Quiz 1]]

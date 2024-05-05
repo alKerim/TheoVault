@@ -38,7 +38,7 @@ Wir wählen also mit Absicht oder Versuchen ein Wort zu wählen sodass es nicht 
 
 ## Beispiele
 ### Beispiel 1
-Die Sprache $\left\{a^i b^i \mid i \in \mathbb{N}\right\}$ ist nicht regulär.
+Die Sprache $\{a^i b^i \mid i \in \mathbb{N}\}$ ist nicht regulär.
 Beweis:
 Angenommen, $L$ sei doch regulär.
 Sei $n$ eine Pumping-Lemma-Zahl für $L$.
