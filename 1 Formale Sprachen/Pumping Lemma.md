@@ -46,10 +46,10 @@ Wähle $z=a^n b^n \in L$.
 Jede gute Zerlegung $u v w$ von $z$ erfüllt
 $u, v \in\{a\}^*$ (weil $|u v| \leq n$ ) und $v \neq \epsilon$.
 "Endliche Automaten können nicht unbegrenzt zählen"
-Ist die Sprache $\left\{a^n b^n \mid n \leq 10^6\right\}$ regulär?
+Ist die Sprache $\{a^n b^n \mid n \leq 10^6\}$ regulär?
 
 ### Beispiel 2
-$L=\left\{0^{m^2} \mid m \geq 0\right\}$ ist nicht regulär.
+$L=\{0^{m^2} \mid m \geq 0\}$ ist nicht regulär.
 Beweis:
 Angenommen, $L$ sei doch regulär.
 Sei $n$ eine Pumping-Lemma-Zahl für $L$.
@@ -59,9 +59,8 @@ $$\begin{equation*}
 \end{equation*}$$
 
 Wir zeigen $u v^2 w \notin L$. D.h., wir beweisen, dass $\left|u v^2 w\right|$ keine Quadratzahl ist. Mit
-$$\begin{equation*}
-n^2=|z|=|u v w|<\left|u v^2 w\right| \leq n^2+n<n^2+2 n+1=(n+1)^2
-\end{equation*}$$
+$n^2=|z|=|u v w|<\left|u v^2 w\right| \leq n^2+n<n^2+2 n+1=(n+1)^2$
+
 gilt $n^2<\left|u v^2 w\right|<(n+1)^2$. Zwischen $n^2$ und $(n+1)^2$ liegt keine Quadratzahl.
 
 
