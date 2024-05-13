@@ -40,6 +40,7 @@ Zu einem regulären Ausdruck $\gamma$ ist die zugehörige Sprache $L(\gamma)$ re
 - $\boldsymbol{\epsilon} \alpha \equiv \alpha \epsilon \equiv \alpha$
 - $\emptyset^* \equiv \epsilon$
 - $\epsilon^* \equiv \epsilon$
+- $\epsilon \emptyset = \emptyset \epsilon =\emptyset$
 - $A \cup \emptyset=\{x \mid x \in A\}=A$
 Assoziativität:
 - $(\alpha \mid \beta)|\gamma \equiv \alpha|(\beta \mid \gamma)$
