@@ -40,3 +40,8 @@ Selbsterklärend
 ______
 # Andere Guides+Quellen zum Beweisen-Lernen
 [[how-to-prove-it_book.pdf]] -> [Download zum PDF](https://users.metu.edu.tr/serge/courses/111-2011/textbook-math111.pdf)
+
+
+____
+
+# Zeigen Sprache nicht regulär

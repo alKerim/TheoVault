@@ -4,6 +4,10 @@ L^w:=\left\{z \in \Sigma^* \mid w z \in L\right\} .
 \end{equation*}$$
 $L^{\prime} \subseteq \Sigma^*$ ist Residualsprache von $L$ wenn es $w$ gibt mit $L^{\prime}=L^w$.
 
+
+# Fakten
+- Jeder [[Minimalautomat|minimaler DFA]] für eine reguläre Sprache $L$ unterscheidet sich vom kanonischen Minimalautomaten $M_L$ nur durch eine Umbenennung der Zustände.
+
 # GENAU DANN WENNs
 $uw \in L \Leftrightarrow w \in L^u$
 ___

@@ -9,6 +9,12 @@ Sei $R \subseteq \Sigma^*$ regulär. Dann gibt es ein $n>0$, so dass sich jedes 
 Fall 1: Alle drei Bedingungen sind true: KEINE Aussage möglich!!
 Fall 2: Eine oder mehr der Bedingungen treffen nicht zu: Sprache ist nicht regulär!!
 
+### Wichtig:
+Es gibt nicht-reguläre Sprachen, für die das Pumping-Lemma gilt!
+$\Rightarrow$ Pumping-Lemma hinreichend aber nicht notwendig um Nicht-Regularität zu zeigen.
+
+
+
 ### Easy Explanation
 Wir nehmen Bedingung 1 und 2,
 also $v \neq \epsilon$, und $|u v| \leq n$,

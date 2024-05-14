@@ -22,6 +22,7 @@ $M$ und $M / \equiv$ erkennen die gleiche Sprache: $L(M / \equiv)=L(M)$.
 Beweis: Übung.
 
 ## Minimalität des Quotientenautomaten:
-![[Residualsprache]]
+[[Residualsprache]]
 
 ![[Äquivalenz von Wörtern bzgl. L]]
+
