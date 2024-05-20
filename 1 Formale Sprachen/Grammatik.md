@@ -4,6 +4,8 @@ Eine Grammatik ist ein 4-Tupel $G=(V, \Sigma, P, S)$, wobei
 - $P \subseteq(V \cup \Sigma)^* \times(V \cup \Sigma)^*$ ist eine Menge von Produktionen, und 
 - $S \in V$ ist das Startsymbol.
 
+
+
 # Notation basic wichtig
 $L(G)$ ist die [[Sprache]] die von der Grammatik $G$ beschrieben wird.
 

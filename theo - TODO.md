@@ -1,5 +1,7 @@
 
+- [ ] [[Erkennungsproblem]]
 
+____
 Woche 1 shit
 - [x] Tutorium 1
 - [x] Übungsblatt 1 (anschauen vor Tutorium)

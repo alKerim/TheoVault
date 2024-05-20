@@ -6,3 +6,6 @@ mit $\delta_L(R, a):=R^a$ und $F_L:=\left\{R \in \mathcal{R}_L \mid \epsilon \in
 $\delta_L$ ist wohldefiniert und $\hat{\delta}_L(R, w)=R^w$. Jeder Zustand $R$ erkennt die Sprache $R$ und somit $L\left(M_L\right)=L$.
 
 
+
+
+# Bei Minimalautomat zeichnen für

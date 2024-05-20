@@ -5,3 +5,4 @@ falls ja -> es wurde nach den Regeln gebaut, und sagt auch wie
 Schritt nach dem [[Recognizer]]
 
 Nächster Schritt: [[Compiler]]
+

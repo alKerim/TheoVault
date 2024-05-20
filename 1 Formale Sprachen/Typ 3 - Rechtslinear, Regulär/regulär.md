@@ -13,3 +13,12 @@ _____
 # nicht-regulär
 Zu zeigen durch:
 - Zeigen, dass $L$ unendlich viele [[Residualsprache|Residualsprachen]] hat.... [[theo-folien-handout.pdf#page=131|Beispiel hier]]
+
+
+____
+
+# weder regulär, noch nicht-regulär (disproved)
+TODO check dis out: 
+![[Screenshot 2024-05-17 at 14.28.37.png]]
+Lösung: nur a) und b) stimmen
+

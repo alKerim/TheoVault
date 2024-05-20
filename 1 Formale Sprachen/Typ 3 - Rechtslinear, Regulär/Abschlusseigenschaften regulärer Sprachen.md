@@ -1,4 +1,4 @@
-Seien $R, R_1, R_2 \subseteq \Sigma^*$ reguläre Sprachen. Dann sind auch
+Seien $R, R_1, R_2 \subseteq \Sigma^*$ [[regulär]] Sprachen. Dann sind auch
 - $R_1 R_2$
 - $R_1 \cup R_2$
 - $R^*$

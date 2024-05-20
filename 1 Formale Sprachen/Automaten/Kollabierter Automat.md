@@ -1,4 +1,4 @@
-a.k.a.: [[Minimalautomat]]
+a.k.a.: [[Kanonischer Minimalautomat]]
 
 ## Formale Definition des "kollabierten Automaten"
 ![[Äquivalenzrelation]]

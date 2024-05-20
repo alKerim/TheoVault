@@ -24,7 +24,7 @@ Dann wählen wir zwei weitere Sachen:
 1. (ein spezifisches $u$) und ($v$ ist sowieso schon $v=\epsilon$)
 2. und ein $i$ , sodass $uv^{i}w \notin R$
 
-Wir wählen also mit Absicht oder Versuchen ein Wort zu wählen sodass es nicht mehr in der ursprünglichen Sprache ist.
+Wir wählen also mit Absicht oder Versuchen ein Wort zu wählen durch ändern von $i$ sodass es nicht mehr in der ursprünglichen Sprache ist.
 
 
 ### Logische Struktur: für jede reguläre Sprache $R$

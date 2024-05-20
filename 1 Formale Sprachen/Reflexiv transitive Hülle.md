@@ -41,3 +41,17 @@ Das Beispiel \($\langle\operatorname{Expr}\rangle \rightarrow{_G^{11}} a \ast (b
 
 ### Sprache (L(G)):
 Die Menge \($L(G) = \left\{w \in \Sigma^* \mid S \rightarrow{_G^*} w\right\}$\) beschreibt die Sprache von ($G$), welche alle Wörter ($w$) umfasst, zu denen es eine Ableitung von ($S$) aus in beliebig vielen Schritten gibt.
+
+
+
+_____
+# Von Folien
+$$\begin{aligned}
+\alpha \rightarrow_G^0 \alpha & \\
+\alpha \rightarrow_G^{n+1} \gamma & : \Leftrightarrow \quad \exists \beta . \alpha \rightarrow_G^n \beta \rightarrow_G \gamma \\
+\alpha \rightarrow_G^* \beta & : \Leftrightarrow \quad \exists n . \alpha \rightarrow_G^n \beta \\
+\alpha \rightarrow_G^{+} \beta & : \Leftrightarrow \quad \exists n>0 . \alpha \rightarrow_G^n \beta
+\end{aligned}$$
+
+Beispiel: $E \rightarrow_G^{11} a *(a+a) \text { und daher } E \rightarrow_G^* a *(a+a)$
+

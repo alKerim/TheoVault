@@ -6,7 +6,7 @@ $L^{\prime} \subseteq \Sigma^*$ ist Residualsprache von $L$ wenn es $w$ gibt mit
 
 
 # Fakten
-- Jeder [[Minimalautomat|minimaler DFA]] für eine reguläre Sprache $L$ unterscheidet sich vom kanonischen Minimalautomaten $M_L$ nur durch eine Umbenennung der Zustände.
+- Jeder [[Kanonischer Minimalautomat|minimaler DFA]] für eine reguläre Sprache $L$ unterscheidet sich vom kanonischen Minimalautomaten $M_L$ nur durch eine Umbenennung der Zustände.
 
 # GENAU DANN WENNs
 $uw \in L \Leftrightarrow w \in L^u$
@@ -40,12 +40,36 @@ $R_{L}= \{L_1,L_2,L_3,L_4\}$
 	Nun also, es kann mehrere Endzustände geben, lass dich hier nicht verwirren, $\epsilon$ steht hierbei nicht für den Startzustand sondern, weil 
 
 
+# Regeln zum Residual-Beweisen
+![[IMG_4416.jpg]]
+
+$L^b=\left\{w \in \Sigma^* \mid \text { bw } \in L\right\}=\varnothing$
+
+Allgemein für $\Sigma=\{a, b\}$ and eine beliebige Sprache $L$
+$\underbrace{L^w}_{wz}=\{a\} \underbrace{L^{wa}}_{waz} \cup\{b\} \underbrace{L^{wb}}_{wbz} \underbrace{(\cup \{\epsilon \})}_{\text{falls } w \in L} =$
+By the way:
+$L^{wa}= \left(L^w\right)^a$
+$L^{wb}=\left(L^w\right)^b$
+
+
+![[IMG_9905.jpg]]
+
+
+
+
 # Beispiele
 ### Beispiel zur Schreibweise
 ![[Screenshot 2024-05-13 at 14.13.48.png|400]]
 Beschreibung der obigen Sprache des DFAs
 $\{a\}L_{1}\cup \{b\}L_2 \cup \{\epsilon\}$
 
+
+### Beispiel 2
+$L = \{a^{n}b^{n}|n \in N\}$
+$L^{a}= \{w\in \Sigma^{*}| aw \in L\} = \{a^{n}b^{n+1}| n \in N\}$
+$L^{aaa}= \{w\in \Sigma^{*}| aaaw \in L\} = \{a^{n}b^{n+3}| n \in N\}$
+$L^{aab}= \{w\in \Sigma^{*}| aabw \in L\} = \{b\}$
+$L^{b}= \{w\in \Sigma^{*}| bw \in L\} = \emptyset$
 
 
 
