@@ -13,6 +13,8 @@ Fall 2: Eine oder mehr der Bedingungen treffen nicht zu: Sprache ist nicht regul
 Es gibt nicht-reguläre Sprachen, für die das Pumping-Lemma gilt!
 $\Rightarrow$ Pumping-Lemma hinreichend aber nicht notwendig um Nicht-Regularität zu zeigen.
 
+Sprache $L$ regulär $\Rightarrow$ Pumping-Lemma gilt
+
 
 
 ### Easy Explanation
@@ -72,3 +74,4 @@ $n^2<\left|u v^2 w\right|<(n+1)^2$. Zwischen $n^2$ und $(n+1)^2$ liegt keine Qua
 
 
 # Pumping Lemma für kontextfreie Sprachen
+[[Pumping Lemma für kontextfreie Sprachen]]

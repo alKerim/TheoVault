@@ -9,7 +9,6 @@ Seien $R, R_1, R_2 \subseteq \Sigma^*$ [[regulär]] Sprachen. Dann sind auch
 
 reguläre Sprachen.
 
-
 # Beweis
 Beweis:
 $R_1 R_2, R_1 \cup R_2$, und $R^*$ : klar.

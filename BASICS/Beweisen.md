@@ -44,4 +44,9 @@ ______
 
 ____
 
-# Zeigen Sprache nicht regulär
+# Konkrete Beweise
+### Zeigen Sprache nicht regulär
+[[regulär#nicht-regulär]]
+
+### Zeigen Sprachen ungleich
+[[Sprachen Unterscheidbar#Sprachen unterscheiden sich beweisen]]

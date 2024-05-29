@@ -76,3 +76,15 @@ $L^{b}= \{w\in \Sigma^{*}| bw \in L\} = \emptyset$
 
 # Aufgabentypes
 vielleicht rüberkopieren: [[1. Theo Zusammenfassung#Type A: Sprache gegeben]]
+
+#### Zeigen dass unendlich Residualsprachen paarweise verschieden sind
+Ü5.5
+Sei i, $\bar{S} \in \mathbb{N}$, wobei if $j$
+$$\begin{equation*}
+\left.\begin{array}{ccc}
+c^i & \in & L^i b^i \\
+c^i & \not\in & L^{a^j} b^j
+\end{array}\right\} \Rightarrow L^a b^i \neq L^{a^j b^j}
+\end{equation*}$$
+weil $L^{a^ib^i}=\{c^i\}$ und $L^{a^jb^j}=\{c^j\}$
+
