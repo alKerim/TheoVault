@@ -6,9 +6,9 @@ $[a]_{\approx}=[b]_{\approx} \Leftrightarrow a \approx b$
 
 
 # Allgemeine Erklärung
-Basically "Menge der Präfix-Wörter, die die gleiche Residualsprache haben"
+Basically "Menge der Präfix-Wörter, die die gleiche [[Residualsprache]] haben"
 
-Beispielaufgabe: $L(a^*b^*c^*)$
+Beispielaufgabe: $L(a^{*}b^{*}c^{*})$
 finde das alphabetisch kleinste Wort für die Äquivalenzklasse, die das Wort $ab$ enthält.
 -> Die Äquivalenzklasse von $a b$ ist die Menge von Wörtern, die die gleiche Residualsprache haben wie $a b$. Wenn man sich das mit dem minimalen Automaten vorstellt, sind es die Wörter, die von $q_0$ aus in den gleichen Zustand führen wie das Wort $a b$.
 Die Residualsprache $L^{a b}$ ist dagegen die Menge der Wörter, die von diesem Zustand aus in einen (beliebigen) Endzustand führen (wie du richtig gesagt hast: $b^* c^*$ ).
