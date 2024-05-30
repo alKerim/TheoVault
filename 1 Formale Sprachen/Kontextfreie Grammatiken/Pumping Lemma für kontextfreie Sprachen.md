@@ -12,16 +12,42 @@ mit
 
 
 # Nicht-Kontextfrei
+Es gibt ein $n \geq 1$, sodas für jede Zerlegung $z$ die Bedingung nicht gilt.
+	bzw. dass es keine Zerlegung $z$ gibt für die alle Bedingungen gelten.
 
 
 # Visualisiert:
 ![[Screenshot 2024-05-27 at 14.38.10.png|450]]
 
-# Mit PL zeigbar nicht-kontextfrei
+# Mit PL zeigbar, dass nicht-kontextfrei
 $L=\{ww\quad|\quad w\in\Sigma^{*}\}$
 $L=\{a^nb^nc^n|n\in N\}$
 
- 
+
+# Template für Aufgaben
+Angenommen L wäre kontextfrei. Dann müsste sie das Pumping-Lemma für kontextfreie Sprachen erfüllen.
+z.z.: $L$ erfüllt das PL nicht
+
+Sei $n$ eine beliebige PL-Zahl
+Wähle $z= ...$ $\in L$ 
+Sei $z=uvwxy$ eine Zerlegung, die die Pl-Eigenschaften erfüllt.
+
+Fallunterscheidung:
+$|vx|$ enthält...
+- Nur a's
+- a's und b's
+- Nur b's
+- b's und c's
+- Nur c's
+
+Man kann nun diese Fälle entweder einzeln behandeln oder man fasst sie zusammen in 2 größere Fälle:
+- enthält a's
+	- Nur a's
+	- a's und b's
+- keine a's
+	- Nur b's
+	- b's und c's
+	- Nur c's
 
  
 ______
@@ -32,6 +58,12 @@ aaabbbccc
 
 vwx = aaa | abb | bbb | bcc | ccc
 
+Fallunterscheidung hier:
+- nur a's
+- a's und b's
+- nur b's
+- b's und c's
+- c's
 
 ### Beispiel 2
 Mit dem Pumping-Lemma kann man zeigen, dass die Sprache $\left\{w w \mid w \in\{a, b\}^*\right\}$ nicht kontextfrei ist.
