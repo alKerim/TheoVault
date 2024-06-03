@@ -1,6 +1,6 @@
-Sei $D$ ein DFA, NFA, RE, rechtslineare Grammatik ....
+Sei $G_1,G_2$ ein DFA, NFA, RE, rechtslineare Grammatik ....
 
-Äquivalenzproblem: Gegeben $D_1, D_2$, gilt $L\left(D_1\right)=L\left(D_2\right)$ ?
+Gegeben $G_1, G_2$, gilt $L\left(G_1\right)=L\left(G_2\right)$ ? ^06dfa8
 
 ### Entscheidbarkeit
 Das Äquivalenzproblem ist für DFAs [[entscheidbar]].

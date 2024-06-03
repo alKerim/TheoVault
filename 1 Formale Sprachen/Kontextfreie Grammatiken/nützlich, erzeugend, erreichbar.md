@@ -45,3 +45,5 @@ S \rightarrow_{G_2}^* \alpha X \beta \rightarrow_{G_2}^* w
 \end{equation*}$$
 
 
+# Elimination Algorithmus 
+![[IMG_4477.jpg]]

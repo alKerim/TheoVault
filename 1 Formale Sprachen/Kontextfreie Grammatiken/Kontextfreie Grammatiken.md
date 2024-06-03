@@ -1,7 +1,15 @@
 Grundlagen der syntaktischen Analyse von Programmiersprachen, Parsing, Compilerbau.
 
 # Fakten
-Kontextfreie Grammatiken dienen zur Spezifikation von Sprachen. 
+- Kontextfreie Grammatiken dienen zur Spezifikation von Sprachen. 
+- Jede Grammatik lässt sich in [[Chomsky-Normalform]] umwandeln.
+- Es gibt **Nicht-Kontextfreie Grammatiken** die [[Kontextfreie Sprache|Kontextfreie Sprachen]] beschreiben.
+
+
+##### Syntaktische Einschränkung
+Wie bei Rechtslinearen Sprachen
+![[Rechtslineare Grammatiken#^7ffc1d]]
+Gibt es bei kontextfreien keine Einschränkungen außer, dass links nur ein Nichtterminal stehen muss und rechts darf jede Kombination aus $X \rightarrow \alpha$ haben, mit $X \in V, \alpha \in(\Sigma \cup C)^*$.
 
 # Arithmetische Ausdrücke
 $$\begin{array}{l}

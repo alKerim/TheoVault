@@ -3,6 +3,19 @@ Eine Grammatik ist ein 4-Tupel $G=(V, \Sigma, P, S)$, wobei
 - $\Sigma$ ist eine endliche Menge von Terminalzeichen (oder Terminale), disjunkt von $V$, auch genannt ein Alphabet,
 - $P \subseteq(V \cup \Sigma)^* \times(V \cup \Sigma)^*$ ist eine Menge von Produktionen, und 
 - $S \in V$ ist das Startsymbol.
+_______
+Die von $M$ akzeptierte Sprache ist
+$$\begin{equation*}
+L(M):=\left\{w \in \Sigma^* \mid \hat{\delta}\left(q_0, w\right) \in F\right\},
+\end{equation*}$$
+wobei $\hat{\delta}: Q \times \Sigma^* \rightarrow Q$ induktiv definiert ist durch
+$$\begin{equation*}
+\begin{aligned}
+\hat{\delta}(q, \epsilon) & =q \\
+\hat{\delta}(q, a w) & =\hat{\delta}(\delta(q, a), w) \quad \text { für } a \in \Sigma, w \in \Sigma^* .
+\end{aligned}
+\end{equation*}$$
+( $\hat{\delta}(q, w)$ bezeichnet den Zustand, den man aus $q$ mit $w$ erreicht. )
 
 
 
