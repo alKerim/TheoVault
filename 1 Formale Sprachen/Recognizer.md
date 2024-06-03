@@ -1,6 +1,6 @@
 Programm, welches das [[Erkennungsproblem]] für eine gegebene Grammatik löst.
 
-Recognizer $\rightarrow$ Parser $\rightarrow$ Compiler
+Recognizer $\rightarrow$ [[Parser]] $\rightarrow$ [[Compiler]]
 
 
 

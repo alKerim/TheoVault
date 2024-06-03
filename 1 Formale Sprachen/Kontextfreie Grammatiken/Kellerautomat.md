@@ -34,7 +34,7 @@ $$\begin{equation*}
 \end{array}\right.
 \end{equation*}$$
 
-Die reflexive und transitive Hülle von $\rightarrow_M$ wird mit $\rightarrow_M^*$ bezeichnet.
+Die [[Reflexiv transitive Hülle|reflexive und transitive Hülle]] von $\rightarrow_M$ wird mit $\rightarrow_M^*$ bezeichnet.
 Intuitive Bedeutung von $(q, w, \alpha) \rightarrow_M\left(q^{\prime}, w^{\prime}, \alpha^{\prime}\right)$ :
 Wenn $M$ sich in der Konfiguration $(q, w, \alpha$ ) befindet, dann kann er in einen Schritt in die Nachfolgerkonfiguration $\left(q^{\prime}, w^{\prime}, \alpha^{\prime}\right)$ übergehen.
 
@@ -67,7 +67,7 @@ Aufgabe: Jeder Schritt kann durch eine Sequenz von diesen drei Operationen simul
 
 Die beiden sind gleich mächtig.
 
-#### PDA $M$ akzeptiert $w \in |Sigma^*$
+#### PDA $M$ akzeptiert $w \in \Sigma^*$
 - Ein PDA $M$ akzeptiert $w \in \Sigma^*$ mit Endzustand gdw
 	$\left(q_0, w, Z_0\right) \rightarrow_M^*(f, \epsilon, \gamma)$ für ein $f \in F, \gamma \in \Gamma^*$.
 $$\begin{equation*}

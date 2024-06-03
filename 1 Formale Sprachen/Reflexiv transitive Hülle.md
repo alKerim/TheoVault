@@ -35,7 +35,6 @@ $L(G)=\left\{w \in \Sigma^* \mid S \rightarrow_G^* w\right\}$
 
 
 ### Beispiel:
-
 Das Beispiel \($\langle\operatorname{Expr}\rangle \rightarrow{_G^{11}} a \ast (b+c)$) zeigt, dass es 11 Schritte benötigt, um von ($\langle\operatorname{Expr}\rangle$) zu $(a \ast (b+c)$\) zu gelangen. Und weil es eine Verbindung gibt, folgt daraus auch, dass \($\langle\mathrm{Expr}\rangle \rightarrow{_G^*} a \ast (b+c)$\), also eine reflexive transitive Verbindung existiert.
 
 
