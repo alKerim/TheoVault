@@ -62,8 +62,8 @@ Aufgabe: Jeder Schritt kann durch eine Sequenz von diesen drei Operationen simul
 
 # PDA akzeptiert Wörter
 #### Zwei Arten der Akzeptanz
-- Akzeptanz durch Endzustände und 
-- leeren Keller 
+- Akzeptanz durch Endzustände $L_F(M)$ und 
+- leeren Keller $L_\epsilon\left(M\right)$
 
 Die beiden sind gleich mächtig.
 
@@ -93,6 +93,6 @@ $$\begin{equation*}
 \left(q_0, w, Z_0\right) \rightarrow_M^*(f, \epsilon, \gamma) \Leftrightarrow\left(q_0^{\prime}, w, Z_0^{\prime}\right) \rightarrow_{M^{\prime}}^*(q, \epsilon, \epsilon)
 \end{equation*}$$
 
-# Verbindung zu [[Kontextfreie Grammatiken|CFGs]]
+# Konvertierung von/zu [[Kontextfreie Grammatiken|CFGs]]
 [[CFG -> PDA]]
 

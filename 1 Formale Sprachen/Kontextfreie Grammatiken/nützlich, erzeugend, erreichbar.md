@@ -10,9 +10,13 @@ ____
 
 ____
 # Elimination
+#theo/wichtig 
+#### Algorithmus
+#theo/algorithmus 
 Eliminiert man aus einer Grammatik $G$
 (1) alle nicht erzeugenden Symbole, mit Resultat $G_1$, und
 (2) aus $G_1$ alle unerreichbaren Symbole, mit Resultat $G_2$, dann enthält $G_2$ nur noch nützliche Symbole und $L\left(G_2\right)=L(G)$.
+
 #### Beweis
 Wir zeigen zuerst $L\left(G_2\right)=L(G)$.
 Da $P_2 \subseteq P$ gilt $L\left(G_2\right) \subseteq L(G)$. ($P$ und $P_2$ sind die Produktionen von $L(G)$ und $L(G_2)$ )
@@ -46,4 +50,16 @@ S \rightarrow_{G_2}^* \alpha X \beta \rightarrow_{G_2}^* w
 
 
 # Elimination Algorithmus 
+#theo/algorithmus 
+Erzeugend:
+1. $P_0:=\left\{X \mid \exists(X, \gamma) \in P . \gamma \in \Sigma^*\right\}$
+2. Wiederhole $P_{k+1}:=P_k \cup\left\{X \in V \mid \exists(X, \gamma) \in P . \forall Y \in V .\left(|\gamma|_Y>0 \rightarrow\right.\right.$ $\left.\left.Y \in P_k\right)\right\}$ solange bis $P_{k+1}=P_k$.
+
+Erreichbar:
+1. $R_0:=\{S\}$
+2. Wiederhole $R_{k+1}:=R_k \cup\left\{\left.Y \in V\left|\exists(X, \gamma) \in P . X \in R_k \wedge\right| \gamma\right|_Y>0\right\}$ solange bis $R_{k+1}=R_k$.
+
+
+Aus Tutorium
 ![[IMG_4477.jpg]]
+
