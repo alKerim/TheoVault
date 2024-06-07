@@ -41,8 +41,21 @@ Wenn $M$ sich in der Konfiguration $(q, w, \alpha$ ) befindet, dann kann er in e
 Achtung: eine Konfiguration kann mehrere Nachfolger haben (Nichtdeterminismus!)
 
 #### Erweiterungslemma
+nicht relevant für uns (hat er in VL gesagt)
 $$\begin{equation*}
 (q, u, \alpha) \rightarrow_M^n\left(q^{\prime}, u^{\prime}, \alpha^{\prime}\right) \Longrightarrow(q, u v, \alpha \beta) \rightarrow_M^n\left(q^{\prime}, u^{\prime} v, \alpha^{\prime} \beta\right)
+\end{equation*}$$
+# Regeln/Sätze
+#theo/wichtig #theo/beweis 
+$L(G)=L_\epsilon(M)$
+Beweis:
+$$\begin{equation*}
+\begin{array}{l}
+u \in L(G) \\
+\Leftrightarrow S \rightarrow_G^* u \text { mit Linksableitung } \\
+\Leftrightarrow(q, u, S) \rightarrow_M^*(q, \epsilon, \epsilon) \\
+\Leftrightarrow u \in L_\epsilon(M)
+\end{array}
 \end{equation*}$$
 
 
@@ -92,6 +105,8 @@ Ziel:
 $$\begin{equation*}
 \left(q_0, w, Z_0\right) \rightarrow_M^*(f, \epsilon, \gamma) \Leftrightarrow\left(q_0^{\prime}, w, Z_0^{\prime}\right) \rightarrow_{M^{\prime}}^*(q, \epsilon, \epsilon)
 \end{equation*}$$
+![[Screenshot 2024-06-06 at 14.45.18.png]]
+
 
 # Konvertierung von/zu [[Kontextfreie Grammatiken|CFGs]]
 [[CFG -> PDA]]

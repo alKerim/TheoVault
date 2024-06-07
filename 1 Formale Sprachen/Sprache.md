@@ -46,6 +46,8 @@ Bsp: $\Sigma^{+}=$Menge aller nicht-leeren Wörter über $\Sigma$
 ### Rechenregeln für Sprachen
 - $\emptyset A=\emptyset$
 - $\{\epsilon\} A=A$
+
+Abschlusseigenschaften
 - $A(B \cup C)=A B \cup A C$
 - $(A \cup B) C=A C \cup B C$
 - **Achtung**: i.A. gilt $A(B \cap C)=A B \cap A C$ nicht. ^11dae2
