@@ -1,4 +1,6 @@
 Eine Sprache ist **regulär** gdw sie von einem [[DFA - Deterministische endliche Automaten|DFA]] akzeptiert wird.
+Eine Sprache ist **regulär** gdw sie von einem [[NFA - Nichtdeterministische endliche Automaten|NFA]] akzeptiert wird.
+	Bei komplizierteren Sprachen muss aber auch klar sein, dass dieser NFA tatsächlich die entsprechende Sprache erzeugt - unter Umständen muss man das dann noch beweisen/begründen. Bei einfacheren Sprachen ist das oft direkt klar.
 Eine Sprache ist **regulär** gdw sie von einem [[RE - Reguläre Ausdrücke|Reguläre Ausdruck]] erzeugt wird.
 Eine Sprache ist **regulär** gdw sie von einer [[Rechtslineare Grammatiken|Rechtslineare Grammatik]] erzeugt wird.
 Eine Sprache ist **regulär** gdw sie endlich viele [[Residualsprache|Residualsprachen]] hat.

@@ -50,3 +50,9 @@ ____
 
 ### Zeigen Sprachen ungleich
 [[Sprachen Unterscheidbar#Sprachen unterscheiden sich beweisen]]
+
+
+
+________
+# Begründen unterschied
+[[Begründen vs. Beweisen]]
