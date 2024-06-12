@@ -16,3 +16,8 @@ $A_G$ ist eine abstrakte Beschreibung eines Programms zur Lösung des Wortproble
 Der Algorithmus mit $G$ als Eingabe und $A_G$ als Ausgabe ist eine abstrakte Beschreibung eines Programms für die automatische Synthese von [[Recognizer|Recognizern]] ([[lex & yacc]]).
 
 
+
+
+# Zeit
+#### DCFL
+Das Wortproblem für [[DCFL|DCFLs]] ist in linearer Zeit lösbar.

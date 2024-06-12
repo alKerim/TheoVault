@@ -9,6 +9,8 @@ $L_1:=\left\{a^i b^i c^j \mid i, j \in \mathbb{N}\right\}$ ist kontextfrei
 $L_2:=\left\{a^i b^j c^j \mid i, j \in \mathbb{N}\right\}$ ist kontextfrei
 $L_1 \cap L_2=\left\{a^i b^i c^i \mid i \in \mathbb{N}\right\}$ ist nicht kontextfrei
 
+Aber $L_1$ und $L_2$ sind sogar [[DCFL|DCFLs]].
+Da $L_1 \cap L_2=\overline{\overline{L_1} \cup \overline{L_2}}$ können die DCFLs auch nicht unter Vereinigung abgeschlossen sein.
 
 # Beweise
 OE nehmen wir an, dass $V_1 \cap V_2=\emptyset$.

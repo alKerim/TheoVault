@@ -3,4 +3,4 @@
 | --------------- | ---- | --------- | --------- | ----- | --------- | ---------------- | ------------------ | ------------------------------------------------------- |
 | [[regulär]]     | ✅    | ✅         | ✅         | ✅     | ✅         | ✅                | ✅                  | [[Abschlusseigenschaften regulärer Sprachen\|link]]     |
 | [[kontextfrei]] | ✅    | ✅         | ❌         | ✅     | ❌         | ❌                | ?                  | [[Abschlusseigenschaften kontextfreier Sprachen\|link]] |
-| DCFL            | ❌    | ❌         | ❌         | ❌     | ✅         | ❌?               | ?                  |                                                         |
+| DCFL            | ❌    | ❌         | ❌         | ❌     | ✅         | ❌                | ?                  |                                                         |

@@ -1,6 +1,7 @@
 a.k.a. PDA (pushdown automaton)
 ![[Screenshot 2024-06-03 at 14.55.04.png|350]]
-
+# Variationen
+[[DPDA]]
 
 # Formale Definition
 Ein (nichtdeterministischer) Kellerautomat $M=\left(Q, \Sigma, \Gamma, q_0, Z_0, \delta, F\right)$ besteht aus
@@ -38,7 +39,7 @@ Die [[Reflexiv transitive Hülle|reflexive und transitive Hülle]] von $\rightar
 Intuitive Bedeutung von $(q, w, \alpha) \rightarrow_M\left(q^{\prime}, w^{\prime}, \alpha^{\prime}\right)$ :
 Wenn $M$ sich in der Konfiguration $(q, w, \alpha$ ) befindet, dann kann er in einen Schritt in die Nachfolgerkonfiguration $\left(q^{\prime}, w^{\prime}, \alpha^{\prime}\right)$ übergehen.
 
-Achtung: eine Konfiguration kann mehrere Nachfolger haben (Nichtdeterminismus!)
+Achtung: eine Konfiguration kann mehrere Nachfolger haben ([[Nichtdeterminismus]]!)
 
 #### Erweiterungslemma
 nicht relevant für uns (hat er in VL gesagt)

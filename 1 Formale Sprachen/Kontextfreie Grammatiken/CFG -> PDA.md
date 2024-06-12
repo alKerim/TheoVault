@@ -11,8 +11,8 @@ Methode: Für jedes $a \in \Sigma$
 (2) ersetze $a$ rechts in $P$ durch $A_a$ (außer am Kopfende),
 (3) füge eine neue Produktion $A_a \rightarrow a$ hinzu.
 
-Alle Produktionen in $G=(V, \Sigma, P, S)$ haben jetzt die Form
-$A \rightarrow b B_1 \ldots B_k$
+~~Alle Produktionen in $G=(V, \Sigma, P, S)$ haben jetzt die Form~~
+~~$A \rightarrow b B_1 \ldots B_k$ .... ~  not anymore
 
 Der PDA wird wie folgt definiert:
 $M \quad:=\quad(\{q\}, \Sigma, V, q, S, \delta)$
