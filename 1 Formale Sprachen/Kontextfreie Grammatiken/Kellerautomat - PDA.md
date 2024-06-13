@@ -108,6 +108,11 @@ $$\begin{equation*}
 \end{equation*}$$
 ![[Screenshot 2024-06-06 at 14.45.18.png]]
 
+# Konvertierung: leerer Keller -> Endzustand
+TODO !!!!
+Einfach 
+
+
 
 # Konvertierung von/zu [[Kontextfreie Grammatiken|CFGs]]
 [[CFG -> PDA]]
