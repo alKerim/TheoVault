@@ -12,6 +12,10 @@ Für [[Kontextfreie Grammatiken|CFGs]] sind folgende Probleme nicht [[entscheidb
 ![[Mehrdeutigkeitsproblem]]
 
 
+# Halteprobleme die nicht entscheidbar sind
+[[Spezielles Halteproblem]]
+
+
 
 ____
 Related: [[entscheidbar]]
