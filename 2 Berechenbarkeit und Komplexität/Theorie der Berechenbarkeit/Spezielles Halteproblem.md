@@ -1,3 +1,6 @@
+Ein [[Halteproblem]]
+
+
 Gegeben: Ein Wort $w \in\{0,1\}^*$.
 Problem: Hält $M_w$ bei Eingabe $w$ ?
 Als Menge:
@@ -6,11 +9,13 @@ K:=\left\{w \in\{0,1\}^* \mid M_w[w] \downarrow\right\}
 \end{equation*}$$
 
 
-# Nicht entscheidbar
-Das spezielle Halteproblem ist [[nicht entscheidbar]].
+# Entscheidbarkeit
+- Das spezielle Halteproblem ist [[nicht entscheidbar]].
+- Die Menge $K=\left\{w \mid M_w[w] \downarrow\right\}$ ist [[semi-entscheidbar (s-e)|semi-entscheidbar]].
+- $\bar{K}$ ist nicht [[semi-entscheidbar (s-e)|semi-entscheidbar]].
 
 ### Beweis
-Angenommen, $K$ sei entscheidbar, dh $\chi_K$ ist berechenbar. Dann ist auch folgende Funktion $f$ berechenbar:
+Angenommen, $K$ sei [[entscheidbar]], dh $\chi_K$ ist [[berechenbar]]. Dann ist auch folgende Funktion $f$ berechenbar:
 $$\begin{equation*}
 f(w):=\left\{\begin{array}{ll}
 0 & \text { falls } \chi_K(w)=0 \\

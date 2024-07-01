@@ -15,7 +15,7 @@ Ein (nichtdeterministischer) Kellerautomat $M=\left(Q, \Sigma, \Gamma, q_0, Z_0,
 - einer Menge $F \subseteq Q$ von Endzuständen.
 
 Intuitive Bedeutung von $\left(q^{\prime}, \alpha \right) \in \delta(q, \alpha, Z)$ :
-Wenn sich $M$ in Zustand $q$ befindet, das Eingabezeichen a liest, und $Z$ das oberste Kellerzeichen ist, so kann $M$ im nächsten Schritt in $q^{\prime}$ übergehen und $Z$ durch $\alpha$ ersetzen.
+Wenn sich $M$ in Zustand $q$ befindet, das Eingabezeichen a liest, und $Z$ das oberste Kellerzeichen ist, so kann $M$ im nächsten Schritt in $q^{\prime}$ übergehen und $Z$ durch $\alpha$ ersetzen. ^b4c8c3
 
 # Konfiguration der Transitionen
 #theo/wichtig 
@@ -101,6 +101,7 @@ Konvention: Wir blenden die $F$-Komponente von $M$ aus, wenn wir nur an $L_\epsi
 # Konvertierung: Endzustand -> leerer Keller
 #theo/zeit 
 $Z u$ jedem PDA $M=\left(Q, \Sigma, \Gamma, q_0, Z_0, \delta, F\right)$ kann man in **linearer Zeit** einen PDA $M^{\prime}=\left(Q^{\prime}, \Sigma, \Gamma^{\prime}, q_0^{\prime}, Z_0^{\prime}, \delta^{\prime}\right)$ konstruieren mit $L_F(M)=L_\epsilon\left(M^{\prime}\right)$.
+#theo/wichtig bei PDA mit leerem stack lassen wir einfach das F weg in der formalen Schreibweise.
 
 Ziel:
 $$\begin{equation*}

@@ -73,5 +73,24 @@ $n^2<\left|u v^2 w\right|<(n+1)^2$. Zwischen $n^2$ und $(n+1)^2$ liegt keine Qua
 
 
 
+
+## Template für PL reguläre Sprachen
+Für
+$L_1=\left\{a^n b^n a^m b^m \mid n, m \in \mathbb{N}\right\}$
+
+(Der Beweis funktioniert analog für alle vier Sprachen. (2022Endterm Aufgabe 6)) 
+Wir wählen $L_1$. 
+Wir führen einen Widerspruchsbeweis und nehmen an, dass $L_1$ regulär wäre. 
+Dann gilt die Aussage des Pumping-Lemma (PL) für reguläre Sprachen. 
+Sei $n \in \mathbb{N}$ die PL-Zahl. 
+Nun wählen wir das Wort $z:=a^n b^n a^n b^n$. 
+Nach PL existiert eine Zerlegung $z=u v w$. 
+
+Es gilt $|u v| \leq n$ und $v \neq \varepsilon$, 
+wir können also $v=a^i$ schreiben, für ein $i>0$. 
+Nun gilt auch $u v^0 w \in L_1$, aber $u w=a^{n-i} b^n a^n b^n \notin L$, da $n-i \neq n$. 
+Dies ist ein Widerspruch, $L_1$ kann somit nicht regulär sein.
+
+
 # Pumping Lemma für kontextfreie Sprachen
 [[Pumping Lemma für kontextfreie Sprachen]]

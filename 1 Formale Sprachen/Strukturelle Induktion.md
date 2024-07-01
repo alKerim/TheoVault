@@ -12,6 +12,7 @@ TODO
 - $\exists w$ in $L$, für das gilt Eigenschaft blablabla,.... $eigenschaft(\emptyset)=false$ 
   weil es gibt in $\emptyset$ keine Wörter für die die **Eigenschaft gilt**
 
+
 # Aufgaben
 Harte Aufgabe: H2.6
 

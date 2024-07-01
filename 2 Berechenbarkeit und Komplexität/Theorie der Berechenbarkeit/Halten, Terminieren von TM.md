@@ -4,3 +4,4 @@ Eine [[Turingmaschine - TM|TM]] hält wenn sie eine Konfiguration $(\alpha, q, a
 - Eine TM kann auch halten, bevor sie einen Endzustand erreicht. (wenn es keine weiteren Übergänge mehr gibt)
 
 
+

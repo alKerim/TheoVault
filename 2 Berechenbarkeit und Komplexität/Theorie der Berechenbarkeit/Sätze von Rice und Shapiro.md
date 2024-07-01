@@ -1,0 +1,3 @@
+
+
+[[Satz von Rice]]

@@ -14,6 +14,7 @@ Intuition:
 
 # Entscheidbarkeit
 Falls $A \leq B$ und $B$ ist entscheidbar, so ist auch $A$ entscheidbar.
+
 #### Beweis
 Beweis:
 Es gelte $A \leq B$ mittels $f$ und $\chi_B$ sei [[berechenbar]]. Dann ist $\chi_B \circ f$ berechenbar und $\chi_A=\chi_B \circ f$ :
@@ -39,4 +40,8 @@ Wir haben A auf B reduziert
 #### Beispiel 2
 Da $K \leq H$ (mit Reduktion $f(w):=w \# w$ ) und $K$ [[unentscheidbar]] ist, ist auch $H$ unentscheidbar.
 
+###### von tweedback:
+Beim Halteproblem auf leerem Band: Ich verstehe nicht, warum man das Programm ohne Eingabe auf ein Programm mit Eingabe reduzieren kann. Ändert das nicht die Semantik des Programms?
 
+Antwort:
+	Ich verstehe die Frage nicht ganz. In beiden Fällen haben wir doch eine Eingabe? Im ersten Fall ist es die Kodierung der TM selbst und im zweiten Fall ist es das leere Wort.

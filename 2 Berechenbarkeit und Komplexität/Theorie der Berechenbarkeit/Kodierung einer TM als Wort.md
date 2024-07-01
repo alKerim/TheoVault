@@ -14,6 +14,8 @@ $$\begin{equation*}
 \# & \mapsto & 11
 \end{array}
 \end{equation*}$$
+
+
 # Nicht jedes Wort TM
 Nicht jedes Wort über $\{0,1\}^*$ kodiert eine TM.
 Sei $\hat{M}$ eine beliebige feste TM.
@@ -30,19 +32,22 @@ M & \text { falls } w \text { Kodierung von } M \text { ist } \\
 \end{equation*}$$
 Die Kodierung von syntaktischen Objekten (Programmen, Formeln, etc) als Zahlen nennt man [[Gödelisierung]] und die Zahlen Gödelnummern.
 
-### $M_w\downarrow$ 
+### $M[w] \downarrow$
 $M[w]$ ist Abk. für „,Maschine $M$ mit Eingabe $w^{\text {“ }}$ 
 $M[w] \downarrow$ bedeutet, dass $M[w]$ terminiert/hält.
 
-### $M_w\uparrow$ 
+### $M[w] \uparrow$
 $M[w] \uparrow$ bedeutet, dass $M[w]$ NICHT terminiert/hält.
 
 
 ### $M_w\downarrow$  vs. $M_w\uparrow$ 
+$g(x)$ nicht berechenbar
 $$g(\omega)=\left\{\begin{array}{llll}
 0 & \text { gdw }  & M_\omega[\omega] \uparrow & gdw. f(w)=0 \\
 1 & \text { gdw } & M_\omega[\omega] \downarrow & gdw. f(w)= \perp
 \end{array}\right.$$
+
+
 ## aus tweedback
 Wieso sagen wir Mw[w] terminiert nicht, gdw f(w)=0, was genau macht denn f(w) eigentlich ?
 Weil wir f so definiert haben. f(w_i) = 0 gdw. M_{w_i}(w_i) nicht terminiert und f(w_i) ist undefiniert gdw. M_{w_i}(w_i) terminiert.

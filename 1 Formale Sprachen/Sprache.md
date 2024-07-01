@@ -2,6 +2,10 @@ Eine Teilmenge $L \subseteq \Sigma^{*}$ ist eine (formale) Sprache.
 $\Sigma^{*}$ ist die [[Menge aller Wörter]].
 
 
+____
+Jede Sprache ist [[abzählbar]]
+____
+
 # Beispielsprachen
 - Die Menge aller Wörter im Duden
 - Die Menge der deutschen Sätze ist ==keine **formale** Sprache !!==

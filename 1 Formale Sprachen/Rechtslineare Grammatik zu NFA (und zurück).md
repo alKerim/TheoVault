@@ -47,10 +47,10 @@ Damit gilt $L(G)=L(A)$. (Fall mit $S \rightarrow \epsilon$ : Aufgabe)
 
 # NFA -> Rechtslineare Grammatik 
 
-Als Gleichungssystem, mit **Ardens Lemma**
+Als Gleichungssystem, mit **[[Ardens Lemma]]**
 Siehe [[theo-folien-handout.pdf#page=68|hier]]
 
-**Ardens Lemma** wird benutzt um Gleichungen mit nur einer Variabler zu lösen
+**[[Ardens Lemma]]** wird benutzt um Gleichungen mit nur einer Variabler zu lösen
 
 Gleichungssysteme lösen: mit Gaußscher 
 

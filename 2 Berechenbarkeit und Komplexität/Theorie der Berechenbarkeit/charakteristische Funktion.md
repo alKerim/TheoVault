@@ -5,3 +5,5 @@ $$\begin{equation*}
 0, & \text { falls } x \notin T
 \end{array}\right.
 \end{equation*}$$
+
+

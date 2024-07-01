@@ -5,3 +5,9 @@
 - formulize this aufgabe [[subset A2 aufgabe ü2]]
 - Endlich vs Unendliche Sprachen
 
+
+# Pumping Lemma Templates
+- [ ] PL für reguläre Sprachen
+- [ ] PL für kontextfreie Sprachen
+- [ ] PL kann verwendet werden um unendlichkeit einer Sprache zu zeigen [[Endliche Sprache#PL um zu zeigen, dass Sprache unendlich]]
+

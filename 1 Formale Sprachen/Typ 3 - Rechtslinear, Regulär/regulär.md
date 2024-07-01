@@ -9,8 +9,8 @@ Eine reguläre Sprache ist unter folgender [[Abschlusseigenschaften regulärer S
 
 Jede [[endliche Sprache]] ist **regulär**.
 	Aber nicht jede reguläre Sprache ist endlich. 
-	-> Beispiel $L(a^*)$ ^0d53a2
-Jede [[regulär|reguläre Sprache]] ist eine DCFL.
+	-> Beispiel $L(a^*)$
+Jede [[regulär|reguläre Sprache]] ist eine DCFL. ^79a7d8
 
 
 

@@ -1,5 +1,7 @@
 Zu jeder [[Kontextfreie Grammatiken|CFG]] G kann man einen PDA $M$ konstruieren, der mit leerem Stack akzeptiert, so dass $L_\epsilon(M)=L(G)$.
 
+
+# Alter Algorithmus
 Konstruktion:
 Zuerst bringen wir alle Produktionen von $G$ in die Form
 $$\begin{equation*}
@@ -13,6 +15,8 @@ Methode: Für jedes $a \in \Sigma$
 
 ~~Alle Produktionen in $G=(V, \Sigma, P, S)$ haben jetzt die Form~~
 ~~$A \rightarrow b B_1 \ldots B_k$ .... ~  not anymore
+
+# NEUER Algorithmus
 
 Der PDA wird wie folgt definiert:
 $M \quad:=\quad(\{q\}, \Sigma, V, q, S, \delta)$

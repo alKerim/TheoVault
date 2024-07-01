@@ -1,1 +1,0 @@
-Untersuchung der Grenzen, was Rechner **mit begrenzten Ressourcen** können.

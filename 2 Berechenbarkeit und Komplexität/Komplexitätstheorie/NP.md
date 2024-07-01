@@ -1,0 +1,1 @@
+$\mathrm{NP} =$ die von einer NTM in polynomieller Zeit lösbaren Probleme In exponentieller Zeit lösbar (s. Simulation NTM durch DTM)
