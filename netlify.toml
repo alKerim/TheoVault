@@ -7,16 +7,16 @@ publish = "public"
 # (Optional) Text in landing page button
 LANDING_BUTTON = "Overview"
 # (Optional) Site description on landing page
-LANDING_DESCRIPTION = "Densely linked Knowledge-Base for Theo at TUM, with search functionality."
+LANDING_DESCRIPTION = "Densely linked Knowledge-Base for Theoretische Informatik at TUM, with search functionality."
 # (REQUIRED) The Markdown page linked to landing page button (e.g. put home for ./home.md)
 LANDING_PAGE = "README-Theo"
 # (Optional) Site title on landing page
-LANDING_TITLE = "Knowledge-Base for Theo at TUM"
+LANDING_TITLE = "WikiTheo"
 PYTHON_VERSION = "3.8"
 # (REQUIRED) Site repo URL
 REPO_URL = "https://github.com/alKerim/TheoVault"
 # (Optional) Site title in navbar
-SITE_TITLE = "Theo Searchable Docs"
+SITE_TITLE = "WikiTheo"
 # (Optional) Site title in browser tab (leave blank to use SITE_TITLE)
 SITE_TITLE_TAB = ""
 # (REQUIRED) Netlify site URL
