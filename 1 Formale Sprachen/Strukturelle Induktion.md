@@ -1,9 +1,17 @@
 Beweisen von Rekursiven Funktionen auf Rekursiven Ausdrücken
+# Struktur
 
-# Algorithmus (Induktion)
+| $\operatorname{empty}(\emptyset)=$             | $\operatorname{empty}(\alpha \beta)=$ |
+| ---------------------------------------------- | ------------------------------------- |
+| $\operatorname{empty}(\mathrm{a})=$            | empty $(\alpha \mid \beta)=$          |
+| $\operatorname{empty}(\boldsymbol{\epsilon})=$ | empty $\left(\alpha^*\right)=$        |
 
 
-TODO
+
+
+# Algorithmus (Induktionsbeweis) - Beispiel
+![[Pasted image 20240705134232.png]]
+![[Screenshot 2024-07-05 at 13.44.12.png]]
 
 
 # Important Rules:

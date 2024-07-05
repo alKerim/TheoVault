@@ -1,6 +1,6 @@
 
 - Für jeden $\epsilon \text {-NFA } N$ gibt es einen [[NFA - Nichtdeterministische endliche Automaten|NFA]] $N^{\prime}$ mit $L(N)=L\left(N^{\prime}\right)$
-	-> [[ε-NFA -> NFA]]
+	-> [[Uni/8th Semester/Theo 8th/1 Formale Sprachen/Automaten/ε-NFA -> NFA]]
 	Beweis:
 	Seie $N=\left(Q, \Sigma, \delta, q_0, F\right)$ ein $\epsilon$-NFA. Wir definieren den NFA $N^{\prime}=\left(Q, \Sigma, \delta^{\prime}, q_0, F^{\prime}\right)$ mit folgenden Definitionen für $\delta^{\prime}$ und $F^{\prime}$ :
 	$\delta^{\prime}: Q \times \Sigma \rightarrow \mathcal{P}(Q)$
