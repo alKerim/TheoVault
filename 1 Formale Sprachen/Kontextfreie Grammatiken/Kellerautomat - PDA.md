@@ -109,9 +109,7 @@ $Z u$ jedem PDA $M=\left(Q, \Sigma, \Gamma, q_0, Z_0, \delta, F\right)$ kann man
 #theo/wichtig bei PDA mit leerem stack lassen wir einfach das F weg in der formalen Schreibweise.
 
 Ziel:
-$$\begin{equation*}
-\left(q_0, w, Z_0\right) \rightarrow_M^*(f, \epsilon, \gamma) \Leftrightarrow\left(q_0^{\prime}, w, Z_0^{\prime}\right) \rightarrow_{M^{\prime}}^*(q, \epsilon, \epsilon)
-\end{equation*}$$
+$\left(q_0, w, Z_0\right) \rightarrow_M^*(f, \epsilon, \gamma) \Leftrightarrow\left(q_0^{\prime}, w, Z_0^{\prime}\right) \rightarrow_{M^{\prime}}^*(q, \epsilon, \epsilon)$
 ![[Screenshot 2024-06-06 at 14.45.18.png]]
 
 # Konvertierung: leerer Keller -> Endzustand
