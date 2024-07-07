@@ -1,3 +1,4 @@
+#theo/probleme/halt 
 Ein [[Halteproblem]]
 
 
@@ -10,6 +11,7 @@ K:=\left\{w \in\{0,1\}^* \mid M_w[w] \downarrow\right\}
 
 
 # Entscheidbarkeit
+#theo/wichtig 
 - Das spezielle Halteproblem ist [[nicht entscheidbar]].
 - Die Menge $K=\left\{w \mid M_w[w] \downarrow\right\}$ ist [[semi-entscheidbar (s-e)|semi-entscheidbar]].
 - $\bar{K}$ ist nicht [[semi-entscheidbar (s-e)|semi-entscheidbar]].

@@ -1,3 +1,4 @@
+#theo/basics
 Eine Turingmaschine (TM) ist ein 7-Tupel $M=\left(Q, \Sigma, \Gamma, \delta, q_0, \square, F\right)$ so dass
 - $Q$ ist eine endliche Menge von Zuständen.
 - $\Sigma$ ist eine endliche Menge, das Eingabealphabet.
@@ -13,6 +14,7 @@ Eine Turingmaschine (TM) ist ein 7-Tupel $M=\left(Q, \Sigma, \Gamma, \delta, q_0
 - Eine [[Nichtdeterminismus|nichtdeterministische]] Turingmaschine hat eine Übergangsfunktion $\delta: Q \times \Gamma \rightarrow \mathcal{P}(Q \times \Gamma \times\{L, R, N\})$.
 
 ____
+#theo/basics/sprachen  
 ![[Turingmaschine - TM#^bb8ab1]]
 ![[Turingmaschine - TM#^f4aa6e]]
 _____
@@ -23,6 +25,7 @@ _____
 
 
 # Konfigurationen
+#theo/basics 
 Eine Konfiguration einer Turingmaschine ist ein Tripel
 $$\begin{equation*}
 (\alpha, q, \beta) \in \Gamma^* \times Q \times \Gamma^* \text {. }
@@ -35,6 +38,7 @@ Dies modelliert
 - Kopf auf dem ersten Zeichen von $\beta \square$
 
 #### Startkonfiguration
+#theo/basics 
 Die Startkonfiguration der Turingmaschine bei Eingabe $w \in \Sigma^*$ ist $\left(\epsilon, q_0, w\right)$.
 
 ==WICHTIG==: Kopf liegt auf erstem Zeichen des Input Wortes. #theo/wichtig 
@@ -42,6 +46,7 @@ Also zB bei Sprache $a^nb^n$ liegt der Zeiger auf dem ersten $a$ des Wortes
 
 #### Endkonfiguration
 ###### Output Aufgabe
+#theo/basics 
 Also eine Aufgabe wie
 Konstruieren Sie eine Turingmaschine $T=\left(Q, \Sigma, \Gamma, q_0, \square, \delta, F\right)$, mit $\Sigma=\{\mid\}$, die eine eingegebene Strichzahl verdoppelt.
 --->> Der Kopf muss am Anfang des Wortes stehen (auf dem 1. Zeichen) #theo/wichtig 

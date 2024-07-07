@@ -1,3 +1,4 @@
+#theo/definition
 ==M==odifiziertes ==[[Postsche Korrespondenzproblem - PCP|PCP]]==
 
 Gegeben: wie beim PCP

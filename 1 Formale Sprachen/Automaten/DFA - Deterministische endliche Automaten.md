@@ -3,6 +3,7 @@
 Eingabewort $b a b a \rightsquigarrow$ Zustandsfolge 0,0,1,2,2.
 Erkannte Sprache: Menge der Wörter, die vom Startzustand in einen Endzustand führen.
 
+#theo/nicetoknow
 [[Recognizer]], der nur einmal das Wort durchläuft und in linearer Zeit es akzeptiert oder ablehnt.
 
 # Formale Definition

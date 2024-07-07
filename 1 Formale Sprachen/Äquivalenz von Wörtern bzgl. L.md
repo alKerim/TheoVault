@@ -1,4 +1,4 @@
-
+#theo/basics/residualsprache
 $$\begin{equation*}
 u \equiv_L v \quad \Leftrightarrow \quad L^u=L^v
 \end{equation*}$$

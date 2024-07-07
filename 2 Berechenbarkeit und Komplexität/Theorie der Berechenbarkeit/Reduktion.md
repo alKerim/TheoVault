@@ -1,7 +1,9 @@
+#theo/definition
 # reduzierbar
 ![[reduzierbar]]
 
 # Die Reduktion
+#theo/basics/reduktion 
 Wir schreiben dann $A \leq B$. 
 "$A$ lässt sich auf $B$ reduzieren"
 

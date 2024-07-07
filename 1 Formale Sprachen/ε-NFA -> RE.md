@@ -13,7 +13,11 @@ Wiederhole so lang wie möglich:
 - Solange es Übergänge $\left(q, \gamma_1, p\right)$ and $\left(q, \gamma_2, p\right)$ gibt, ersetze sie durch einen einzigen Übergang $\left(q, \gamma_1 \mid \gamma_2, q^{\prime}\right)$.
 ![[Screenshot 2024-04-28 at 20.09.34.png|400]]
 - Wähle Zustand $q$ der weder Anfang- noch Endzustand ist.
-- Hat $q$ eine Schleife $(q, \sigma, q)$, dann ersetze jedes Paar $(p, \gamma, q)$, $\left(q, \beta, p^{\prime}\right)$ von Übergängen mit $p \neq q \neq p^{\prime}$ (aber möglicherweise $\left.p=p^{\prime}\right)$ durch $\left(p, \gamma \sigma^* \beta, p^{\prime}\right)$, sonst durch $\left(p, \gamma \beta, p^{\prime}\right)$.
+- Hat $q$ eine Schleife $(q, \sigma, q)$,
+	- ja: dann ersetze jedes Paar $(p, \gamma, q)$, $\left(q, \beta, p^{\prime}\right)$ von Übergängen mit $p \neq q \neq p^{\prime}$ (aber möglicherweise $\left.p=p^{\prime}\right)$ durch $\left(p, \gamma \sigma^* \beta, p^{\prime}\right)$, 
+	- nein: ==sonst durch $\left(p, \gamma \beta, p^{\prime}\right)$.== 
 - Entferne den Zustand $q$ zusammen mit all seinen eingehenden und ausgehenden Übergängen.
-![[Screenshot 2024-04-28 at 20.09.53.png]]
-
+	Wenn $q$ eine Schleife hat
+	![[Screenshot 2024-04-28 at 20.09.53.png]]
+	Wenn $q$ KEINE Schleife hat
+	![[Screenshot 2024-07-06 at 11.43.06.png]]

@@ -21,6 +21,7 @@ Beweisen von Rekursiven Funktionen auf Rekursiven Ausdrücken
   weil es gibt in $\emptyset$ keine Wörter für die die **Eigenschaft gilt**
 
 
+
 # Aufgaben
 Harte Aufgabe: H2.6
 

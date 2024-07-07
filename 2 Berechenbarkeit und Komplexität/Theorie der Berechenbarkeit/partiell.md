@@ -1,1 +1,2 @@
-partiell gdw $f(a)$ auch undefiniert sein kann.
+partiell **gdw** $f(a)$ auch undefiniert sein kann.
+

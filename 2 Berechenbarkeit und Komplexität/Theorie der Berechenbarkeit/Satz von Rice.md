@@ -1,6 +1,7 @@
 Die von der TM $M_w$ berechnete Funktion bezeichnen wir mit $\varphi_w$. 
 Wir betrachten implizit nur einstellige Funktionen.
 
+#theo/basics 
 Sei $F$ eine Menge [[berechenbar|berechenbarer]] Funktionen.
 Es gelte weder $F=\emptyset$ noch $F=$ alle ber. Funkt. („F nicht trivial“) 
 Dann ist [[unentscheidbar]], ob die von einer gegebenen TM $M_w$ berechnete Funktion Element $F$ ist, dh ob $\varphi_w \in F$.
@@ -13,11 +14,12 @@ Es ist [[entscheidbar]], ob ein Programm
 
 Valide nicht-triviale semantische Eigenschaften sind zB:
 $\left\{w \in \Sigma^*:\left|\varphi_w(x)\right|=42\right.$ für alle $\left.x \in \mathbb{N}\right\}$
-	Da wir $F$ definieren können als die Menge der Funiktionen die eine Zeichenkette der Länge 42 zurúckgeben.
+	Da wir $F$ definieren können als die Menge der Funktionen die eine Zeichenkette der Länge 42 zurückgeben.
 	Da $F \not = \emptyset$  und $F$ obviously nicht die Menge aller ber. Funktionen ist gilt:
 	$\varphi_{w}\in F$ ist unentscheidbar laut **Satz von Rice**.  
 
 # Semantik nicht Syntax
+#theo/basics 
 Im Satz von Rice geht es um die von einem Programm berechnete Funktion ([[Semantics|Semantik]]), nicht um den Programmtext ([[Syntax]]).
 
 

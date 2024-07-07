@@ -27,4 +27,5 @@ $(A \rightarrow b \beta) \in P \Longrightarrow \delta(q, b, A) \ni(q, \beta)$
 also für alle $b \in \Sigma \cup\{\epsilon\}$ und $A \in V$ :
 $\delta(q, b, A):=\{(q, \beta) \mid(A \rightarrow b \beta) \in P\}$
 
-
+### Beispiel
+![[Screenshot 2024-07-06 at 12.29.40.png]]

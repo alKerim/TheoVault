@@ -1,3 +1,4 @@
+#theo/basics/residualsprache  
 Die Residual[[sprache]] von $L$ bzgl. $w \in \Sigma^*$ ist die Menge
 $$\begin{equation*}
 L^w:=\left\{z \in \Sigma^* \mid w z \in L\right\} .

@@ -1,3 +1,4 @@
+#theo/algorithmus 
 # Erklärung anhand Beispiel
 **AT-Aufgabe H2.2. (Produktmengenkonstruktion) (SS22)**
 Konvertieren sie folgenden [[NFA - Nichtdeterministische endliche Automaten|NFA]] über dem Alphabet $\Sigma=\{a, b\}$ zu einem [[DFA - Deterministische endliche Automaten|DFA]], z.B. indem Sie die ***Potenzmengenkonstruktion*** aus der Vorlesung verwenden.

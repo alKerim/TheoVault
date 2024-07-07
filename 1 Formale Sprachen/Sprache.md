@@ -3,7 +3,8 @@ $\Sigma^{*}$ ist die [[Menge aller Wörter]].
 
 
 ____
-Jede Sprache ist [[abzählbar]]
+#theo/basics/sprachen
+Jede Sprache ist [[abzählbar]], aber nicht jede Sprache ist [[rekursiv aufzählbar]] (s.u.)
 ____
 
 # Beispielsprachen
@@ -44,12 +45,12 @@ Bsp: $\Sigma^{+}=$Menge aller nicht-leeren Wörter über $\Sigma$
 
 **Achtung:**
 - Für alle $A: \epsilon \in A^*$
-- $\emptyset^*=\{\epsilon\}$
-
+- $\emptyset^*=\{\epsilon\}$ #theo/basics 
+- $\emptyset \in L$ für wirklich jede einzelne Sprache $L \subseteq \Sigma^*$ #theo/basics
 
 ### Rechenregeln für Sprachen
-- $\emptyset A=\emptyset$
-- $\{\epsilon\} A=A$
+- $\emptyset A=\emptyset$ #theo/basics
+- $\{\epsilon\} A=A$ #theo/basics
 
 Abschlusseigenschaften
 - $A(B \cup C)=A B \cup A C$
@@ -62,6 +63,7 @@ Abschlusseigenschaften
 
 # Endliche / Unendliche Sprache
 ### Endlich
+#theo/basics/sprachen 
 Eine Sprache wird als endlich bezeichnet, wenn sie eine endliche Anzahl von Wörtern enthält. Zum Beispiel ist die Sprache $\{a, a a, a a a\}$ endlich, weil sie genau drei Wörter enthält.
 
 **Endliche Sprachen** können immer von einem endlichen Automaten ([[Endliche Automaten]], [[Endliche Automaten und reguläre Ausdrucke]]) akzeptiert werden, da der Automat nur eine endliche Anzahl von Zuständen benötigt, um jedes Wort in der Sprache zu erkennen
@@ -70,6 +72,7 @@ Eine Sprache wird als endlich bezeichnet, wenn sie eine endliche Anzahl von Wör
 $S \rightarrow  b \mid a$
 
 ### Unendlich
+#theo/basics/sprachen 
 Eine Sprache ist unendlich, wenn sie unendlich viele Wörter enthält. Beispielsweise ist die Sprache aller Wörter über dem Alphabet $\{a\}$, also $\{a, a a, a a a, \ldots\}$, unendlich.
 
 

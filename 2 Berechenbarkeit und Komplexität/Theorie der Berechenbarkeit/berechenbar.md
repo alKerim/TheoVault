@@ -1,6 +1,6 @@
 Related: [[Berechenbarkeit]]
 _____
-
+#theo/basics 
 Eine Funktion $f: \mathbb{N}^k \rightarrow \mathbb{N}$ ist **intuitiv berechenbar**, wenn es einen Algorithmus gibt, der bei Eingabe $\left(n_1, \ldots, n_k\right) \in \mathbb{N}^k$
 - nach endlich vielen Schritten mit Ergebnis $f\left(n_1, \ldots, n_k\right)$ hält, falls $f\left(n_1, \ldots, n_k\right)$ definiert ist,
 - und nicht terminiert, falls $f\left(n_1, \ldots, n_k\right)$ nicht definiert ist.
@@ -9,14 +9,12 @@ Was bedeutet „Algorithmus“? Assembler? C? Java? OCaml? Macht es einen Unters
 
 ______
 
+# Beispiele berechenbar
 Die Menge der [[erreichbar (theo)|erreichbaren Symbole]] einer [[Kontextfreie Grammatiken|CFG]] ist **berechenbar**.
 	Beweis:
 	Wir berechnen die erreichbaren Symbole induktiv:
 	- $S$ ist erreichbar.
 	- Ist $A$ erreichbar und $(A \rightarrow \alpha X \beta) \in P$, so ist auch $X$ erreichbar.
-
-
-
 
 
 

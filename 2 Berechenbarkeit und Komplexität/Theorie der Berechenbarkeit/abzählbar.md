@@ -1,6 +1,6 @@
 Eine Menge $M$ ist **abzählbar** falls es eine injektive Funktion $M \rightarrow \mathbb{N}$ gibt.
 
-Äquivalente Definitionen :
+Äquivalente Definitionen : #theo/wichtig 
 - Entweder gibt es eine Bijektion $M \rightarrow\{0, \ldots, n\}$ für ein $n \in \mathbb{N}$, oder eine Bijektion $M \rightarrow \mathbb{N}$.
 - Es gibt eine Nummerierung der Elemente von $M$.
 

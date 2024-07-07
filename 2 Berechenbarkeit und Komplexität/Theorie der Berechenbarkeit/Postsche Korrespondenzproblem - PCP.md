@@ -1,3 +1,4 @@
+#theo/berechenbarkeit 
 Karte (uendlich viele):
 - Immer oben ein Wort.
 - Unten auch
@@ -30,6 +31,7 @@ Kombination: b,a,a,c -> $\frac{10111,1,1,10}{10,111,111,0}$
 - Das $P C P$ ist auch für $\Sigma=\{0,1\}$ unentscheidbar.
 
 #### Manche PCP entscheidbar
+#theo/berechenbarkeit/basics
 $k$ ist die Anzahl Karten die zur Auswahl stehen.
 - Das PCP ist [[entscheidbar]] falls $|\Sigma|=1$
 - Das PCP ist entscheidbar falls $k \leq 2$.

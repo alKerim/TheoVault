@@ -1,3 +1,4 @@
+#theo/definition
 ![[P]]
 
 ![[NP]]
@@ -5,6 +6,9 @@
 # Frage
 $\mathrm{P} = \mathrm{NP}$ ?
 
+
+# gdw's
+Es gilt $P=N P$ gdw ein [[NP-vollständig|NP-vollständiges]] Problem in $P$ liegt.
 
 
 # Warum interessieren wir uns für $\mathrm{NP}$ 

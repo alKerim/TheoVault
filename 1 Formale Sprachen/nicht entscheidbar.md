@@ -33,7 +33,7 @@ L(M)=\emptyset, L\left(M_1\right)=L\left(M_2\right), \ldots
 	\end{equation*}$$
 Für eine CFG G sind folgende Probleme unentscheidbar:
 1. Ist $G$ [[mehrdeutig (theo)]]?
-2. Ist $L(G)$ [regulär]?
+2. Ist $L(G)$ [[regulär]]?
 3. Ist $L(G)$ deterministisch ([[DCFL]])?
 
 Für eine CFG $G$ und einen RE $\alpha$ ist $L(G)=L(\alpha)$ unentscheidbar.
@@ -41,6 +41,8 @@ Für eine CFG $G$ und einen RE $\alpha$ ist $L(G)=L(\alpha)$ unentscheidbar.
 
 # Halteprobleme die nicht entscheidbar sind
 [[Spezielles Halteproblem]]
+
+
 
 
 

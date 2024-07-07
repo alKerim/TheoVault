@@ -1,3 +1,4 @@
+#theo/probleme/halt 
 $H_0:=\left\{w \in\{0,1\}^* \mid M_w[\epsilon] \downarrow\right\}$
 
 

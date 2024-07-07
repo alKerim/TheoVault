@@ -71,7 +71,25 @@ $n^2=|z|=|u v w|<\left|u v^2 w\right| \leq n^2+n<n^2+2 n+1=(n+1)^2$
 gilt:
 $n^2<\left|u v^2 w\right|<(n+1)^2$. Zwischen $n^2$ und $(n+1)^2$ liegt keine Quadratzahl.
 
+## Templates Adrian
+#### Schema wenn wir PL für L beweisen wollen:
+1. Wir wählen ein konkretes $n>0$.
+2. Wir fixieren ein beliebiges $z \in L$ mit $|z| \geq n$.
+3. Wir geben für $z$ eine passende Zerlegung $z=u v w$ an.
+4. Wir zeigen explizit, dass
+	1. $v \neq \varepsilon$
+	2. $|u v| \leq n$
+	3. $\forall i \geq 0: u v^i w \in L$
+Zum üben: H3.4
 
+#### Schema, wenn wir zeigen wollen, dass $L$ das PL nicht erfüllt:
+1. Wir nehmen an dass $L$ regulär ist.
+2. Wir fixieren sin beliebiges $n>0$.
+3. Wir geben in konkretes $z$ in Abhängigkeit von $n$ an, sodass $|z| \geq n$ und $z \in L$.
+4. Wir zeigen für jede beliebige Zerlegung $z=u v w$, dass mind. einer der drei Bedingungen nicht gilt:
+	1. $v \neq \varepsilon$
+	2. $|uv| \leq n$
+	3. $\forall i \geq 0: u v^i w \in L$
 
 
 ## Template für PL reguläre Sprachen
@@ -90,6 +108,7 @@ Es gilt $|u v| \leq n$ und $v \neq \varepsilon$,
 wir können also $v=a^i$ schreiben, für ein $i>0$. 
 Nun gilt auch $u v^0 w \in L_1$, aber $u w=a^{n-i} b^n a^n b^n \notin L$, da $n-i \neq n$. 
 Dies ist ein Widerspruch, $L_1$ kann somit nicht regulär sein.
+
 
 
 # Pumping Lemma für kontextfreie Sprachen

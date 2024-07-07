@@ -10,3 +10,5 @@ Untersuchung der Grenzen, was Rechner **mit begrenzten Ressourcen** können.
 	Bsp: Palindrom-Test auf einer 1-Band TM braucht Zeit $\Theta\left(n^2\right)$ Nicht hier.
 
 kerim miboun ma amine 👉👈👉👆🏿🫄🏿🫃🏽👨🏻‍🤝‍👨🏿
+
+

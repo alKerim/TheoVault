@@ -4,11 +4,12 @@ NFA sind eine Verallgemeinerung von [[DFA - Deterministische endliche Automaten|
 - Jeder DFA ist ein NFA
 - Wort wird akzeptiert gdw mindestens eine dieser Zustandsfolgen zu einem Endzustand führt.
 	Intuition: Automat "rät" den richtigen Weg
-- NFA sind ==nicht== nützlich als [[Recognizer]], aber ==als Zwischenschritt== oder Datenstruktur
+- NFA sind ==nicht== nützlich als [[Recognizer]], aber ==als Zwischenschritt== oder Datenstruktur #theo/wichtig 
 
 
 # Formale Definition
 ### Definition
+#theo/basics
 Ein nichtdeterministischer endlicher Automat (nondeterministic finite automaton, NFA) ist ein 5-Tupel $N=\left(Q, \Sigma, \delta, q_0, F\right)$, so dass
 - $Q, \Sigma, q_0$ und $F$ sind wie bei einem DFA
 - $\delta: Q \times \Sigma \rightarrow \mathcal{P}(Q)$

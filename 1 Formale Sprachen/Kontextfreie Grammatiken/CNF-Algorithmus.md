@@ -1,7 +1,6 @@
 Zum überführen von einer Grammatik in [[Chomsky-Normalform]].
 
 # Schritte
-
 #### 1: Entfernen von Terminalen in langen Produktionen
 $A \rightarrow aB$
 zu
@@ -22,8 +21,11 @@ $X_{SA} \rightarrow SA$
 		 In diesem Fall dann wieder zu Schritt 2. und das gleiche mit $C$ machen
 
 
+
 #### 4: Entfernen von Kettenproduktionen
 Wir nennen $A \rightarrow B$ eine Kettenproduktion. [[theo-folien-handout.pdf#page=163&selection=0,0,8,22|Satz aus VL]]
-Beispiel
+
+Edge Cases: #theo/wichtig 
+- $S \rightarrow S$ darf man löschen 
 
 

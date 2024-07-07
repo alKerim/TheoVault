@@ -1,5 +1,7 @@
+#theo/basics/sprachen 
 
 # Definition
+
 ### Reflexivität
 $\alpha \rightarrow{ }_G^0 \alpha$
 

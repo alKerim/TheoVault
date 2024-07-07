@@ -3,6 +3,7 @@ $$\begin{equation*}
 M_1: A_1 ; M_2: A_2 ; \ldots ; M_k: A_k
 \end{equation*}$$
 (wobei alle Marken verschieden und optional sind)
+#theo/basics 
 Mögliche Anweisungen $A_i$ sind:
 $$\begin{equation*}
 \begin{array}{l}

@@ -25,16 +25,17 @@ Bindungsstärke: * bindet stärker als Konkatenation stärker als |
 # Rekursive Definition der Sprache
 Zu einem regulären Ausdruck $\gamma$ ist die zugehörige Sprache $L(\gamma)$ rekursiv definiert:
 - $L(\emptyset)=\emptyset$, 
-- $|L(\emptyset)|=0$
-- $|L(\epsilon)|=1$
+- $|L(\emptyset)|=0$ #theo/basics/RE 
+- $|L(\epsilon)|=1$ aber $|\epsilon| =0$ #theo/basics/RE 
 - $L(\boldsymbol{\epsilon})=\{\epsilon\}$
 - $L(a)=\{a\}$
-- $L(\alpha \beta)=L(\alpha) L(\beta)$
-- $L(\alpha \mid \beta)=L(\alpha) \cup L(\beta)$
-- $L\left(\alpha^*\right)=L(\alpha)^*$
+- $L(\alpha \beta)=L(\alpha) L(\beta)$ #theo/basics/RE 
+- $L(\alpha \mid \beta)=L(\alpha) \cup L(\beta)$ #theo/basics/RE 
+- $L\left(\alpha^*\right)=L(\alpha)^*$ #theo/basics/RE 
 
 
 # Regeln
+#theo/basics/RE 
 - $\emptyset|\alpha \equiv \alpha| \emptyset \equiv \alpha$
 - $\emptyset \alpha \equiv \alpha \emptyset \equiv \emptyset$
 - $\boldsymbol{\epsilon} \alpha \equiv \alpha \epsilon \equiv \alpha$

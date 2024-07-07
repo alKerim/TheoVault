@@ -1,3 +1,4 @@
+#theo/algorithmus 
 Beide DFAs laufen synchron parallel, ==Wort wird akzeptiert wenn beide akzeptieren==.
 
 Parallelismus = Kreuzprodukt der Zustandsräume

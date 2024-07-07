@@ -1,3 +1,4 @@
+#theo/basics/grammatik 
 Eine Grammatik ist ein 4-Tupel $G=(V, \Sigma, P, S)$, wobei
 - $V$ ist eine endliche Menge von Nichtterminalzeichen (oder Nichtterminale, oder Variablen),
 - $\Sigma$ ist eine endliche Menge von Terminalzeichen (oder Terminale), disjunkt von $V$, auch genannt ein Alphabet,

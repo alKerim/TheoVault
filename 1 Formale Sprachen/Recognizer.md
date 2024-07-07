@@ -1,5 +1,6 @@
 Programm, welches das [[Erkennungsproblem]] für eine gegebene Grammatik löst.
 
+#theo/basics 
 Recognizer $\rightarrow$ [[Parser]] $\rightarrow$ [[Compiler]]
 
 

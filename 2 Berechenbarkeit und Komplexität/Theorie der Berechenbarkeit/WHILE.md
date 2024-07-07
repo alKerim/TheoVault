@@ -1,6 +1,7 @@
 strukturierte Programme mit while-Schleifen
 
 # Syntax
+#theo/basics 
 Wir definieren WHILE- und GOTO-Berechenbarkeit und zeigen ihre Äquivalenz mit [[Uni/8th Semester/Theo 8th/2 Berechenbarkeit und Komplexität/Theorie der Berechenbarkeit/Berechenbarkeit|Turing-Berechenbarkeit]].
 Syntax von WHILE-Programmen:
 $$\begin{equation*}

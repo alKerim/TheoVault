@@ -1,3 +1,4 @@
+#theo/basics 
 Zwei [[Sprache|Sprachen]] sind unterscheidbar gdw es mindestens ein [[Wort]] gibt, welches in einer der Sprachen, aber nicht in beiden Sprachen enthalten ist
 
 

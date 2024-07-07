@@ -1,3 +1,4 @@
+#theo/nicetoknow 
 Eine [[Sprache|Sprache]] erfüllt die **Präfix Bedingung** gdw wenn sie keine zwei Wörter enthält, so dass das eine ein echtes Präfix des anderen ist.
 
 

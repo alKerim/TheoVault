@@ -1,2 +1,2 @@
-echt partiell gdw sie nicht [[total]] ist.
+echt partiell **gdw** sie nicht [[total]] ist.
 

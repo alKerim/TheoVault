@@ -4,11 +4,16 @@
 
 - $L \subseteq L_1 \Rightarrow L \cap \bar{L_1}$
 
+#theo/basics
+- Für alle Sprachen $A, B, C$ gilt $(A \backslash C) B=A B \backslash C B$.
+	Die Aussage ist falsch. Sei $A=\{a a\}, B=\{\epsilon, a\}$ und $C=\{ aaa \}$. 
+	Dann gilt $(A \backslash C) B=\{ aa, aaaa \}$ und $A B \backslash C B=\{a a\}$.
 
 
 
 
-$n^2 k+1 \quad V=Q \times \Gamma \times Q \cup\{S\}$ (s. Folie 200)
+PDA -> CFG (Algorithmus aus VL). PDA mit n Zuständen. Wie zB. 
+	$n^2 k+1 \quad V=Q \times \Gamma \times Q \cup\{S\}$ (s. Folie 200)
 
 
 

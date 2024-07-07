@@ -3,4 +3,4 @@
 
 
 [[DFA - Deterministische endliche Automaten]]
-[[Nicht-deterministische endliche Automaten]]
+[[NFA - Nichtdeterministische endliche Automaten]]

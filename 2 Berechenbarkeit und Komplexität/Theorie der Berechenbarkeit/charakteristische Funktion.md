@@ -1,3 +1,4 @@
+#theo/basics 
 Gegeben sei eine Grundmenge $X$ und eine Teilmenge $T \subseteq X$. Die Funktion $\chi_T: X \rightarrow\{0,1\}$, definiert durch
 $$\begin{equation*}
 \chi_T(x)=\left\{\begin{array}{ll}

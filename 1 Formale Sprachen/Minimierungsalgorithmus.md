@@ -1,7 +1,8 @@
-(1) Entferne alle von $q_0$ aus nicht [[erreichbar|erreichbaren]] Zustände.
-(2) Berechne die äquivalenten Zustände des Automaten.
-(3) Kollabiere den Automaten durch Zusammenfassung aller äquivalenten Zustände.
+1. Entferne alle von $q_0$ aus nicht [[erreichbar (theo)|erreichbaren]] Zustände.
+2. Berechne die äquivalenten Zustände des Automaten.
+3. Kollabiere den Automaten durch Zusammenfassung aller äquivalenten Zustände.
 
+#theo/nicetoknow 
 Zustände $p$ und $q$ sind unterscheidbar wenn es $w \in \Sigma^*$ gibt mit $\hat{\delta}(p, w) \in F$ und $\hat{\delta}(q, w) \notin F$ oder umgekehrt.
 Zustände sind äquivalent wenn sie nicht unterscheidbar sind, d.h. wenn für alle $w \in \Sigma^*$ gilt:
 $$\begin{equation*}

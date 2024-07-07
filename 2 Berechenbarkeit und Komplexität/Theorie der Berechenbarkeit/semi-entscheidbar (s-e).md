@@ -1,3 +1,4 @@
+#theo/definition
 Eine Menge $A\left(\subseteq \mathbb{N}\right.$ oder $\left.\Sigma^*\right)$ heißt semi-entscheidbar (s-e) gdw die [[charakteristische Funktion]]
 $$\begin{equation*}
 \chi_A^{\prime}(x):=\left\{\begin{array}{ll}

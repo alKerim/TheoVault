@@ -13,3 +13,5 @@ Die $r_1, \ldots, r_k$ sind potenzielle Zwischenzustände beim Akzeptieren der T
 
 ____
 $[q, Z, p] \rightarrow_G^n w \operatorname{gdw}(q, w, Z) \rightarrow_M^n(p, \epsilon, \epsilon)$
+
+

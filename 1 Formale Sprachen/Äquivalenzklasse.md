@@ -17,8 +17,10 @@ Deshalb: $\left[{ab}\right]_{\equiv_L}=\left[b\right]_{\equiv_L}=\{ ab,b,bb,bbbb
 [Source: Zulip](https://zulip.in.tum.de/#narrow/stream/2184-THEO-SS24-Blatt-04/topic/.C3.9C4.2E2.20Automata.20Tutor)
 
 #### Definition von Äquivalenklasse anhand Residualsprache
+#theo/basics/residualsprache 
 Für jedes Wort $w$ kannst du die Residualsprache $L^w$ berechnen und die Äquivalenzklasse von $a b$ ist dann $\{w \in \Sigma^\star \mid L^w=L^{a b}\}$
 
 #### Strategie um Äquivalenzklassen zu finden
+#theo/basics/residualsprache 
 Du kannst dir ja mal einen Automaten für die Sprache aufzeichnen, minimieren und dann schauen, in welche Zustände du mit $a b$ und $b$ kommst. Oder überlegen, welche Suffixe nach $a b$ und welche nach $b$ ein Wort in $L\left(a^\star b^\star c^\star\right)$ ergeben.
 

@@ -54,11 +54,12 @@ S \rightarrow_{G_2}^* \alpha X \beta \rightarrow_{G_2}^* w
 Erzeugend:
 1. $P_0:=\left\{X \mid \exists(X, \gamma) \in P . \gamma \in \Sigma^*\right\}$
 2. Wiederhole $P_{k+1}:=P_k \cup\left\{X \in V \mid \exists(X, \gamma) \in P . \forall Y \in V .\left(|\gamma|_Y>0 \rightarrow\right.\right.$ $\left.\left.Y \in P_k\right)\right\}$ solange bis $P_{k+1}=P_k$.
+3. Entferne dann alle Nichtterminale in $P_k$, also alle nicht-erzugende Nichtterminale und entsprechende Produktionen.
 
 Erreichbar:
 1. $R_0:=\{S\}$
 2. Wiederhole $R_{k+1}:=R_k \cup\left\{\left.Y \in V\left|\exists(X, \gamma) \in P . X \in R_k \wedge\right| \gamma\right|_Y>0\right\}$ solange bis $R_{k+1}=R_k$.
-
+3. Entferne dann alle Nichtterminale in $R_k$, also alle nicht-erreichbaren Nichtterminale und entsprechende Produktionen.
 
 Aus Tutorium
 ![[IMG_4477.jpg]]

@@ -8,12 +8,14 @@ Die von [[Turingmaschine - TM|Turingmaschinen]] akzeptierten Sprachen sind genau
 
 
 # gdw's
+#theo/basics 
 - Eine Menge A ist **rekursiv aufzählbar** gdw sie [[semi-entscheidbar (s-e)|semi-entscheidbar]] ist.
 	Beweis: [[theo-folien-handout.pdf#page=283]]
 
 
 
 # Formale Definition
+#theo/basics 
 Eine Menge $A$ heißt **rekursiv aufzählbar** (recursively enumerable) 
 gdw 
 - $A=\emptyset$ 
@@ -27,7 +29,7 @@ Bemerkung:
 - Es dürfen Elemente doppelt auftreten $(f(i)=f(j)$ für $i \neq j$ )
 - Die Reihenfolge ist beliebig.
 
-
+#theo/wichtig 
 ==Warnung: Rekursiv aufzählbar $\neq$ [[abzählbar]]!==
 - Rekursiv aufzählbar $\Longrightarrow$ [[abzählbar]]
 - Aber nicht umgekehrt: jede Sprache ist abzählbar aber nicht jede Sprache ist rekursiv aufzählbar (s.u.)

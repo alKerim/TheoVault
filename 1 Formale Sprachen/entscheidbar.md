@@ -1,3 +1,4 @@
+#theo/wichtig 
 Eine Menge $A\left(\subseteq \mathbb{N}\right.$ oder $\left.\Sigma^*\right)$ heißt entscheidbar gdw ihre [[charakteristische Funktion]]
 $$\begin{equation*}
 \chi_A(x):=\left\{\begin{array}{ll}
@@ -7,6 +8,10 @@ $$\begin{equation*}
 \end{equation*}$$
 [[berechenbar]] ist.
 Eine Eigenschaft/Problem $P(x)$ heißt entscheidbar gdw $\{x \mid P(x)\}$ entscheidbar ist.
+
+# Übersicht entscheidbar
+![[Übersicht entscheidbar]]
+
 
 # gdw's
 - Eine Menge $A$ ist **entscheidbar** gdw sowohl $A$ als auch $\bar{A}$ [[semi-entscheidbar (s-e)|s-e]] sind.
@@ -25,7 +30,7 @@ Eine Eigenschaft/Problem $P(x)$ heißt entscheidbar gdw $\{x \mid P(x)\}$ entsch
 
 
 # Faustregel ob entscheidbar
-#theo/cheatsheet 
+#theo/entscheidbar 
 - Für **==[[DFA - Deterministische endliche Automaten|DFAs]]==** ist **fast ==alles== entscheidbar**:
 $$$\begin{equation*}
 L(A)=\emptyset, L(A)=L(B), \ldots
@@ -39,6 +44,7 @@ L(M)=\emptyset, L\left(M_1\right)=L\left(M_2\right), \ldots
 
 
 # Zeit
+#theo/zeit 
 Entscheidbarkeit
 $$\begin{array}{l}
 \text { Entscheidbarkeit }\\
@@ -68,6 +74,24 @@ Ist es entscheidbar, ob eine [[Turingmaschine - TM|TM]]
 - bei Eingabe $\epsilon$ einen bestimmten Zustand erreichen kann?
 - irgendeine Eingabe akzeptieren kann?
 
+
+
+# Abschlusseigenschaften
+#theo/abschlusseigenschaften  
+Wenn $A$ entscheidbar, dann auch $\bar{A}$ entscheidbar, weil:
+	$\chi_A$ ist berechenbar
+	$\forall w \in \Sigma^*$ egal ob $w \in A$ oder $w \notin A$
+	$\chi_{\bar{A}}=\left\{\begin{array}{l}1 \text { wenn } \chi_A=0 \\ 0 \text { wenn } \chi_A=1\end{array}\right\}$
+	
+
+
+
+Wenn $f, g$ berechenbar sind, dann ist $f \circ g$ berechenbar. (Wahr)
+Wenn $f \circ g$ berechenbar ist, dann sind $f, g$ berechenbar. (Falsch)
+
+TODO:
+$L_{1,}L_2$ gegeben mit jeweils entscheidbar, oder unentscheidbar Eigenschaften.
+Und dann Fragen zu $L_{1}\cap L_2$ oder $L_{1}\cup L_2$
 
 
 ____

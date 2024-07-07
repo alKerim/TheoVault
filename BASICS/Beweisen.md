@@ -2,13 +2,24 @@
 # Beweisen dass eine Aussage wahr ist
 ## $A \subseteq B$
 Wähle ein beliebiges $x \in A$ und zeige $x \in B$.
-#### Für Grammatiken
+#### Beispiel Für Grammatiken ($L(G) \subseteq L$ und $L \subseteq L(G)$)
 Geg.:   $\begin{array}{l}L=\left\{a^n b^n \mid n \in \mathbb{N}\right\} \\ G: S \rightarrow a S b \mid \varepsilon\end{array}$
 Ges.: z.z.   $L(G)=L$
 
-$L(G) \subseteq L:$
+##### $L(G) \subseteq L:$
 Wir zeigen $\quad \forall w \in \Sigma^*: \quad \overbrace{S \rightarrow_G^* w}^{w \in L(G)} \Rightarrow w \in L$
-$L \subseteq L(G):$
+per Induktion über die Erzeugung von w.
+Fallunterscheidung
+- Fall $S \rightarrow \varepsilon:$ Es gilt sofort $\varepsilon \in L$.
+- Fall $S \rightarrow a S b:$ Sei $w \in \Sigma^*$ mit $S \rightarrow a S b \rightarrow_{G^*}awb$.
+	Somit gilt $S \rightarrow_G^* w$ und damit $w \in L(G)$. Per I.H. erhalten wir außerdem $w \in L$. Somit existiert ein $n \in \mathbb{N}_0$, sodass $w=a^n b^n$. wir fixieren ein solches $n$.
+	Dadurch gilt aber auch
+	$$\begin{equation*}
+	a w b=a a^n b^n b=a^{n+1} b^{n+1} \in L \text {. }
+	\end{equation*}$$
+
+##### $L \subseteq L(G):$
+Induktion über die Länge:
 $\forall w \in \sum^*: w \in L \Rightarrow w \in L(G)$ durch starke Induktion über die Länge des Wortes n zeigen.
 - Fall $n=0: \quad E_1$ folgt $w=\varepsilon$ und $S \rightarrow_G \varepsilon$.
 - Fall $n=1$ : Es folgt $w=a$ oder $w=b$. 
@@ -21,8 +32,12 @@ $\forall w \in \sum^*: w \in L \Rightarrow w \in L(G)$ durch starke Induktion ü
 	Nach I.H. existiert also $S \rightarrow_a^7 u$.
 	Damit $S \rightarrow_G aSb \rightarrow_{G^*}aub$  $=w$.
 
+#### Edge-Case $L(G) \subseteq \Sigma^*$
+Trivial weil:
+$\forall w \in L(G)$ gilt $w \in \Sigma^*$, da $\Sigma^*$ die Menge aller möglichen Wörter über $\Sigma$ ist.
 
 _____
+
 ## $A=B$
 Zeige erst $A \subseteq B$ und dann $B \subseteq A$.
 

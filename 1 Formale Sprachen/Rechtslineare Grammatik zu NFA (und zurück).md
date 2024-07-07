@@ -3,6 +3,9 @@
 
 
 # Rechtslineare Grammatik -> NFA
+Easy... Einfach jede Produktion in Transitionen Verwandeln
+Wichtig: Falls $\epsilon \in$ Grammatik, dann setze $S \in F$ 
+
 via [[theo-folien-handout.pdf#page=41|Satz 3.9]]
 
 $A \rightarrow a$ :
@@ -23,6 +26,7 @@ Dann setze $F=\left\{S, q_f\right\}$.
 Aufgabe: Und wenn $S \rightarrow a X|a Y| \epsilon$ ?
 -> Dann gibt es 2 Endzustände, nämlich jetzt zusatzlich noch der Startzustand
 
+![[Screenshot 2024-07-07 at 11.33.57.png|400]]
 
 
 
@@ -53,6 +57,15 @@ Siehe [[theo-folien-handout.pdf#page=68|hier]]
 **[[Ardens Lemma]]** wird benutzt um Gleichungen mit nur einer Variabler zu lösen
 
 Gleichungssysteme lösen: mit Gaußscher 
+
+#### Beweis/Algorithmus
+Sei $M=\left(Q, \Sigma, \delta, q_0, F\right)$. 
+Die Grammatik $G=(V, T, P, S)$ mit
+- $V=Q, T=\Sigma, S=q_0$,
+- $\left(q_1 \rightarrow a q_2\right) \in P \operatorname{gdw} \delta\left(q_1, a\right)=q_2$,
+- $\left(q_1 \rightarrow a\right) \in P \operatorname{gdw} \delta\left(q_1, a\right) \in F$, und
+- $\left(q_0 \rightarrow \epsilon\right) \in P \mathrm{gdw} q_0 \in F$,
+ist von Typ 3 und erfüllt $L(M)=L(G)$.
 
 
 # Beispiele

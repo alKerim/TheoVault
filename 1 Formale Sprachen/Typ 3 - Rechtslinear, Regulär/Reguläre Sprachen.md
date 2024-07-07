@@ -10,5 +10,6 @@ Wieso heißt es "Reguläre" Sprache anstatt "Rechtslineare" Sprache?
 
 [[Rechtslineare Grammatiken]]
 [[Endliche Automaten]]
-[[Reguläre Ausdrücke]]
+[[RE - Reguläre Ausdrücke]]
+
 

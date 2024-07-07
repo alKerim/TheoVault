@@ -1,5 +1,9 @@
 a.k.a. PDA (pushdown automaton)
 ![[Screenshot 2024-06-03 at 14.55.04.png|350]]
+# Leerer Stack vs. Finalzustände
+$L_\epsilon(A)$ oder $L_F(A)$
+
+
 # Variationen
 [[DPDA]]
 
@@ -48,7 +52,8 @@ $$\begin{equation*}
 \end{equation*}$$
 # Regeln/Sätze
 #theo/wichtig #theo/beweis 
-$L(G)=L_\epsilon(M)$
+$L(G)=L_\epsilon(M)$ 
+(Beweisen, dass eine Grammatik, gleich einem PDA leerer Stack ist, [[Beweisen#$L(G) subseteq L $|wie hier]])
 Beweis:
 $$\begin{equation*}
 \begin{array}{l}
@@ -110,8 +115,7 @@ $$\begin{equation*}
 ![[Screenshot 2024-06-06 at 14.45.18.png]]
 
 # Konvertierung: leerer Keller -> Endzustand
-TODO !!!!
-Einfach 
+**Einfach**: die Transitionen die den Keller leeren würden, in einen Endzustand leiten.
 
 
 
