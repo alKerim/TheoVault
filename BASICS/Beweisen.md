@@ -2,7 +2,8 @@
 # Beweisen dass eine Aussage wahr ist
 ## $A \subseteq B$
 Wähle ein beliebiges $x \in A$ und zeige $x \in B$.
-#### Beispiel Für Grammatiken ($L(G) \subseteq L$ und $L \subseteq L(G)$)
+#### Beispiel Für Grammatiken ($L(G) \subseteq L$ und $L \subseteq L(G)$) 
+(Tutorium 5)
 Geg.:   $\begin{array}{l}L=\left\{a^n b^n \mid n \in \mathbb{N}\right\} \\ G: S \rightarrow a S b \mid \varepsilon\end{array}$
 Ges.: z.z.   $L(G)=L$
 

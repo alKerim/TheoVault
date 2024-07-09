@@ -7,6 +7,7 @@
 $\mathrm{P} = \mathrm{NP}$ ?
 
 
+
 # gdw's
 Es gilt $P=N P$ gdw ein [[NP-vollständig|NP-vollständiges]] Problem in $P$ liegt.
 
@@ -22,3 +23,5 @@ Das Problem hierbei ist, dass es exponentiell viele Lösungen gibt.
 
 
 
+# Falls P=NP
+![[Screenshot 2024-07-08 at 18.05.20.png|500]]

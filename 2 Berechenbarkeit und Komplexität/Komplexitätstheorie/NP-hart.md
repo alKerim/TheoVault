@@ -7,3 +7,6 @@ Ein Problem ist **NP-hart**, wenn es mindestens so hart wie alles in [[NP]] ist:
 
 
 ![[NP-Übersicht]]
+
+# Beispiele
+- Touringmaschinen sind **NP-hart**

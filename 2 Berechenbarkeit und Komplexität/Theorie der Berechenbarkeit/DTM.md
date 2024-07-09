@@ -1,4 +1,4 @@
-Deterministische [[Turingmaschine - TM|TM]]
+Deterministische Mehrband-[[Turingmaschine - TM|TM]]
 
 Zu jeder nichtdeterministischen TM $N$ gibt es eine deterministische $TM$ genannt $M$ mit $L(N)=L(M)$.
 	Beweis:

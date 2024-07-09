@@ -39,6 +39,7 @@ Seien $A, B \subseteq \Sigma^*$
 - $A^{*}=\left\{w_1 \ldots w_n \mid n \geq 0 \wedge w_1, \ldots, w_n \in A\right\}=\bigcup_{n \in \mathbb{N}} A^n$
 	Bsp: $\{01\}^*=\{\epsilon, 01,0101,010101, \ldots\} \neq\{0,1\}^*$
 	Leere Wort ist immer enthalten in $A^*$
+	weil $\epsilon \in A^0$, und das gilt IMMER. Deshalb auch $\epsilon \in \Sigma^0$ 
 - $A^{+}=A A^*=\bigcup_{n \geq 1} A^n$
 
 Bsp: $\Sigma^{+}=$Menge aller nicht-leeren Wörter über $\Sigma$

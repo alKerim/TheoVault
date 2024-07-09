@@ -74,6 +74,11 @@ Ist es entscheidbar, ob eine [[Turingmaschine - TM|TM]]
 - bei Eingabe $\epsilon$ einen bestimmten Zustand erreichen kann?
 - irgendeine Eingabe akzeptieren kann?
 
+From Kahoot:
+- Sei $G_1$ CFG und $G_2$ rechtslinear. Ist $L\left(G_1\right) \cap L\left(G_2\right)$ kontextfrei?
+- Seien $G_1, G_2$ CFGs. Gilt $\left|L\left(G_1\right) \cup L\left(G_2\right)\right|=\infty$ ?
+
+
 
 
 # Abschlusseigenschaften

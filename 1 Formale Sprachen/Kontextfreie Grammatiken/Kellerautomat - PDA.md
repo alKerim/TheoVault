@@ -7,6 +7,7 @@ $L_\epsilon(A)$ oder $L_F(A)$
 # Variationen
 [[DPDA]]
 
+
 # Formale Definition
 Ein (nichtdeterministischer) Kellerautomat $M=\left(Q, \Sigma, \Gamma, q_0, Z_0, \delta, F\right)$ besteht aus
 - einer endlichen Menge von Zuständen $Q$,
@@ -105,12 +106,23 @@ Konvention: Wir blenden die $F$-Komponente von $M$ aus, wenn wir nur an $L_\epsi
 
 # Konvertierung: Endzustand -> leerer Keller
 #theo/zeit 
-$Z u$ jedem PDA $M=\left(Q, \Sigma, \Gamma, q_0, Z_0, \delta, F\right)$ kann man in **linearer Zeit** einen PDA $M^{\prime}=\left(Q^{\prime}, \Sigma, \Gamma^{\prime}, q_0^{\prime}, Z_0^{\prime}, \delta^{\prime}\right)$ konstruieren mit $L_F(M)=L_\epsilon\left(M^{\prime}\right)$.
-#theo/wichtig bei PDA mit leerem stack lassen wir einfach das F weg in der formalen Schreibweise.
+Zu jedem PDA $M=\left(Q, \Sigma, \Gamma, q_0, Z_0, \delta, F\right)$ kann man in **linearer Zeit** einen PDA $M^{\prime}=\left(Q^{\prime}, \Sigma, \Gamma^{\prime}, q_0^{\prime}, Z_0^{\prime}, \delta^{\prime}\right)$ konstruieren mit $L_F(M)=L_\epsilon\left(M^{\prime}\right)$.
+#theo/wichtig 
+bei PDA mit leerem stack lassen wir einfach das F weg in der formalen Schreibweise.
 
 Ziel:
 $\left(q_0, w, Z_0\right) \rightarrow_M^*(f, \epsilon, \gamma) \Leftrightarrow\left(q_0^{\prime}, w, Z_0^{\prime}\right) \rightarrow_{M^{\prime}}^*(q, \epsilon, \epsilon)$
 ![[Screenshot 2024-06-06 at 14.45.18.png]]
+#### Konstruktion
+$M^{\prime}$ (mit leerem Keller) simuliert $M$ (mit Endzustand). Zusätzlich:
+- Sobald $M$ einen Endzustand erreicht, darf $M^{\prime}$ den Keller leeren (im neuen Zustand $\bar{q}$ ).
+- Um zu verhindern, dass der Keller von $M^{\prime}$ leer wird, ohne dass $M$ in einem Endzustand ist, führen wir ein neues Kellersymbol $Z_0^{\prime}$ ein.
+	$Q^{\prime} :=Q \uplus\left\{\bar{q}, q_0^{\prime}\right\}$
+	$\Gamma^{\prime} :=\Gamma \uplus\left\{Z_0^{\prime}\right\}$
+
+Wir erweitern $\delta$ zu $\delta^{\prime}$ :
+![[Screenshot 2024-07-07 at 17.34.28.png|500]]
+
 
 # Konvertierung: leerer Keller -> Endzustand
 **Einfach**: die Transitionen die den Keller leeren würden, in einen Endzustand leiten.

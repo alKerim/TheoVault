@@ -38,6 +38,10 @@ Für eine CFG G sind folgende Probleme unentscheidbar:
 
 Für eine CFG $G$ und einen RE $\alpha$ ist $L(G)=L(\alpha)$ unentscheidbar.
 
+From Kahoot
+- Seien $\mathrm{G}_1, \mathrm{G}_2$ CFGs. Ist $\mathrm{L}\left(\mathrm{G}_1\right) \cap \mathrm{L}\left(\mathrm{G}_2\right)$ kontextfrei?
+- Seien $G_1, G_2$ CFGs. Gilt $L\left(G_1\right) \neq L\left(G_2\right)$ ?
+
 
 # Halteprobleme die nicht entscheidbar sind
 [[Spezielles Halteproblem]]
