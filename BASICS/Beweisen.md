@@ -19,7 +19,10 @@ Fallunterscheidung
 	a w b=a a^n b^n b=a^{n+1} b^{n+1} \in L \text {. }
 	\end{equation*}$$
 
+
+
 ##### $L \subseteq L(G):$
+(wir zeigen für alle $w \in L$, dass es auch in $L(G)$ produziert werden kann)
 Induktion über die Länge:
 $\forall w \in \sum^*: w \in L \Rightarrow w \in L(G)$ durch starke Induktion über die Länge des Wortes n zeigen.
 - Fall $n=0: \quad E_1$ folgt $w=\varepsilon$ und $S \rightarrow_G \varepsilon$.
@@ -52,6 +55,15 @@ Zeige erst $A \Rightarrow B$ and dann $B \Rightarrow A$.
 
 
 _____
+## "blabla" $\Rightarrow X \subseteq Y$ ?
+Wie beweist man "blabla" $\Rightarrow X \subseteq Y$ ?
+$\Rightarrow$ Annahme: "blabla"
+Sei $w \in X$ 
+$\Rightarrow \ldots$
+$\Rightarrow^{Ann.} \ldots$
+$\Rightarrow \ldots$
+$\Rightarrow w \in Y$
+
 ## Induktion über $n \in \mathbb{N}_0$ :
 Zeige zuerst, dass die Aussage for $n=0$ gill anschließen, nimm an, dass die Aussage für n gilt, und zeige, dass unter dieser Annahme die Aussage auch for $n+1$ gilt.
 
