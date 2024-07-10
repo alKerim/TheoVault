@@ -7,6 +7,7 @@ If you want a better experience for these notes:
 1. Download Obsidian [https://obsidian.md/](https://obsidian.md/) ,
 2. clone this vault from [Github Repo](https://github.com/alKerim/TheoVault) and
 4. open the cloned folder in Obsidian.
+5. pull every now and then for updates
 
 
 # Useful Overviews
@@ -17,6 +18,9 @@ ____
 ### Wichtig
 [[Basics Sheet]]
 [[Beweisen]]
+
+### Cheatsheet
+V1 für Formale Sprachen: [[CHEATSHEET THEO Teil 1 - SS24]]
 
 ### Extra
 [[Nice to know]]

@@ -1,8 +1,16 @@
 #theo/definition
 ist NICHT [[semi-entscheidbar (s-e)]]
+==Eine Menge ist nicht semi-entscheidbar **genau dann, wenn** die [[semi-charakteristische Funktion]] $\chi_A^{\prime}$ unberechenbar ist.==
+
+
+# Spezifizierung
+Mein Guess war, dass die untenstehende Funktion unentscheidbar ist. 
+Und somit nicht-semi-entscheidbar. Jedoch stimmt das nicht (aus [zulip frage](https://zulip.in.tum.de/#narrow/stream/2196-THEO-SS24-Allgemein/topic/nicht.20semi-entscheidbar)):
+	$\chi_A^{\prime}$ ist die Funktion aus Definition 5.42, die "[[semi-charakteristische Funktion]]". Die Funktion $x \mapsto\left\{\begin{array}{ll}\perp & \text { falls } x \in A \\ \perp & \text { falls } x \notin A\end{array}\right.$ ist einfach die überall undefinierte Funktion und hat nichts mit $A$ zu tun.
+
 
 # Grafik
-Roter Bereich ohne gelb ist nicht Semi-Entscheidbar
+Roter Bereich ohne gelb ist nicht-semi-entscheidbar
 ![[entscheidbar#Übersicht entscheidbar]]
 
 

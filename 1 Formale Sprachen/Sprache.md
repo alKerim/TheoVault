@@ -44,14 +44,14 @@ Seien $A, B \subseteq \Sigma^*$
 
 Bsp: $\Sigma^{+}=$Menge aller nicht-leeren Wörter über $\Sigma$
 
-**Achtung:**
-- Für alle $A: \epsilon \in A^*$
-- $\emptyset^*=\{\epsilon\}$ #theo/basics 
-- $\emptyset \in L$ für wirklich jede einzelne Sprache $L \subseteq \Sigma^*$ #theo/basics
-
 ### Rechenregeln für Sprachen
 - $\emptyset A=\emptyset$ #theo/basics
+- $\emptyset | \alpha = \alpha$ 
 - $\{\epsilon\} A=A$ #theo/basics
+- Für alle $A: \epsilon \in A^*$
+- $\emptyset^*=\{\epsilon\}$ #theo/basics 
+- $A \times \emptyset = \emptyset$ 
+- $\emptyset \in L$ für wirklich jede einzelne Sprache $L \subseteq \Sigma^*$ #theo/basics
 
 Abschlusseigenschaften
 - $A(B \cup C)=A B \cup A C$

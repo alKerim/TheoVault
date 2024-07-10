@@ -30,6 +30,6 @@ PDA -> CFG (Algorithmus aus VL). PDA mit n Zuständen. Wie zB.
 # $\Sigma^*$ Hack
 2/3. [[Reduktion]] von [[Postsche Korrespondenzproblem - PCP|PCP]] Instanz auf $G_4:={ }_{,} \overline{G_1} \cup \overline{G_2}$ “. 
 Instanz unlösbar $\Rightarrow L\left(G_1\right) \cap L\left(G_2\right)=\emptyset$
-$\Rightarrow L\left(G_4\right)=\Sigma^* \Rightarrow L\left(G_4\right)$ reg/det.
+$\Rightarrow L\left(G_4\right)=\Sigma^* \Rightarrow L\left(G_4\right)$ regulär/det.
 
 

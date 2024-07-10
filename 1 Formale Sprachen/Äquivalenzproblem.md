@@ -3,9 +3,10 @@ Sei $G_1,G_2$ ein DFA, NFA, RE, rechtslineare Grammatik ....
 
 Gegeben $G_1, G_2$, gilt $L\left(G_1\right)=L\left(G_2\right)$ ? ^06dfa8
 
-### Entscheidbarkeit
+# Entscheidbarkeit
 Das Äquivalenzproblem ist für DFAs [[entscheidbar]].
 Das Äquivalenzproblem für reguläre Ausdrücke ist [[entscheidbar]].
+
 
 # Äquivalenzproblem für SAT
 [[Äquivalenzproblem für SAT]]

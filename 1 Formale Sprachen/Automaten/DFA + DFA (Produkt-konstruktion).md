@@ -6,7 +6,7 @@ Parallelismus = Kreuzprodukt der Zustandsräume
 
 
 Sprache A, Sprache B
-A,B Produkt-konstruktion = $A \cap B$
+A,B Produkt-konstruktion = $A \cap B$ #theo/cheatsheet 
 
 
 

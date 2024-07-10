@@ -1,12 +1,10 @@
 Beweisen von Rekursiven Funktionen auf Rekursiven Ausdrücken
 # Struktur
 
-| $\operatorname{empty}(\emptyset)=$             | $\operatorname{empty}(\alpha \beta)=$ |
-| ---------------------------------------------- | ------------------------------------- |
-| $\operatorname{empty}(\mathrm{a})=$            | empty $(\alpha \mid \beta)=$          |
-| $\operatorname{empty}(\boldsymbol{\epsilon})=$ | empty $\left(\alpha^*\right)=$        |
-
-
+| $\operatorname{empty}(\emptyset)=$             | $\operatorname{empty}(\alpha \beta)=$        |
+| ---------------------------------------------- | -------------------------------------------- |
+| $\operatorname{empty}(\mathrm{a})=$            | $\operatorname{empty}(\alpha \mid \beta)=$   |
+| $\operatorname{empty}(\boldsymbol{\epsilon})=$ | $\operatorname{empty}\left(\alpha^*\right)=$ |
 
 
 # Algorithmus (Induktionsbeweis) - Beispiel
@@ -15,6 +13,7 @@ Beweisen von Rekursiven Funktionen auf Rekursiven Ausdrücken
 
 
 # Important Rules:
+#theo/cheatsheet 
 - $\forall w$ in $L$, gilt Eigenschaft blablabla,.... $eigenschaft(\emptyset)=true$ 
   weil es gibt in $\emptyset$ keine Wörter für die die **Eigenschaft nicht gilt**
 - $\exists w$ in $L$, für das gilt Eigenschaft blablabla,.... $eigenschaft(\emptyset)=false$ 
@@ -23,6 +22,8 @@ Beweisen von Rekursiven Funktionen auf Rekursiven Ausdrücken
 
 
 # Aufgaben
-Harte Aufgabe: H2.6
+Harte ABER GUTE Aufgabe: [H2.6](https://teaching.model.in.tum.de/2024ss/theo/ex/ue02-solution.pdf?key=Fvnz2LI1)
+
+
 
 
