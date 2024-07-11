@@ -111,7 +111,7 @@ TODO: GET FROM ADRIAN FOLIEN
 - PL gilt: adrian folien
 
 ### PL kontextfreie Sprachen
-- nicht kontextfrei: [[Pumping Lemma für kontextfreie Sprachen]]
+- nicht kontextfrei: [[Pumping Lemma für kontextfreie Sprachen#Template Beispielaufgabe (Endterm23)]]
 - PL gilt: adrian folien
 
 
@@ -121,6 +121,8 @@ TODO: GET FROM ADRIAN FOLIEN
 
 
 ### Unendliche Residualsprachen beweisen
+siehe auch [[paarweise verschiedene Residualsprachen]]
+Beispielaufgabe: [H5.4 b) (unendlich Residualsprachen)](https://teaching.model.in.tum.de/2024ss/theo/ex/ha05-solution.pdf?key=IlGKpVDe)
 Theo-S05.pdf (Adrian Folien)
 ![[Screenshot 2024-07-05 at 15.40.42.png]]
 

@@ -50,6 +50,30 @@ Man kann nun diese Fälle entweder einzeln behandeln oder man fasst sie zusammen
 	- b's und c's
 	- Nur c's
 
+
+# Template Beispielaufgabe (Endterm23)
+#theo/cheatsheet 
+a)* Zeigen Sie unter Verwendung des Pumpinglemmas, dass folgende Sprache über dem Alphabet $\Sigma:=\{a, b\}$ nicht kontextfrei ist: $L:=\left\{a^i b^j a^k \mid i, j, k \in \mathbb{N} \wedge j=\min (i, k)\right\}$.
+
+- Wir nehmen an, dass $L$ kontextfrei ist und leiten einen Widerspruch her.
+- Sei $n \in \mathbb{N}_{+}$eine Pumping-Lemma-Zahl für $L$.
+- Wähle $z:=a^n b^n a^n \in L$, es gilt $|z|=3 n \geq n$.
+- Es gibt also für $z$ eine Zerlegung $z=u v w x y$ mit den Eigenschaften
+	1. $v x \neq \varepsilon$
+	2. $|v w x| \leq n$
+	3. $\forall i \in \mathbb{N}$. $u v^i w x^i y \in L$.
+- Wir unterscheiden die folgenden Fälle:
+	- $|v x|_a=0$ : Aus (1) und der Wahl von $z$ folgt, dass $|v x|_b=k>0$. Folglich ist $u v^0 w x^0 y=$ $a^n b^{n-k} a^n \notin L$, da $n-k \neq \min (n, n)$. Dies ist ein Widerspruch zu (3)
+	- $|v x|_a=k>0$ : Wir machen eine weitere Fallunterscheidung:
+		- $|v x|_b=0$ : 
+			Dann ist $u v^0 w x^0 y=a^{n-k} b^n a^n$ oder $u v^0 w x^0 y=a^n b^n a^{n-k}$. 
+			Da $\min (n-k, n) \neq n$ beziehungweise $\min (n, n-k) \neq n$ und daher $u v^0 w x^0 y \notin L$ folgt wieder ein Widerspruch zu (3).
+		* $|v x|_b=l>0$. 
+			Wegen (2) berührt $vwx$ nur einen der $a$ Blöcke. 
+			$u v^2 w x^2 y$ hat daher die Form $a^{n+k} b^{n+l} a^n$ oder $a^n b^{n+l} a^{n+k}$. 
+			Da $k, l>0$ sind auch $n+k>n$ und $n+l>n$. Folglich ist die Anzahl der $b$'s $(n+l)$ größer als $\min (n+k, n)=\min (n, n+k)=n$. 
+			Daher ist $u v^2 w x^2 y \notin L$, ein Widerspruch zu (3).
+- Jeder Fall führt zu einem Widerspruch. Somit ist $L$ nicht kontextfrei.
  
 ______
 # Beispiele

@@ -72,15 +72,16 @@ gilt:
 $n^2<\left|u v^2 w\right|<(n+1)^2$. Zwischen $n^2$ und $(n+1)^2$ liegt keine Quadratzahl.
 
 ## Templates Adrian
-#### Schema wenn wir PL für L beweisen wollen:
-1. Wir wählen ein konkretes $n>0$.
-2. Wir fixieren ein beliebiges $z \in L$ mit $|z| \geq n$.
+#### Schema wenn wir PL für L beweisen wollen (Also L das PL erfüllt):
+1. Wir wählen ein konkretes $n>0$. (Also beispielsweise $n=3$)
+2. Wir fixieren ein beliebiges $z \in L$ mit $|z| \geq n$. (Also beispielsweise $z=ab^mb^m$)
 3. Wir geben für $z$ eine passende Zerlegung $z=u v w$ an.
 4. Wir zeigen explizit, dass
 	1. $v \neq \varepsilon$
 	2. $|u v| \leq n$
 	3. $\forall i \geq 0: u v^i w \in L$
-Zum üben: H3.4
+Zum üben/verstehen: [H3.4c)](https://teaching.model.in.tum.de/2024ss/theo/ex/ha03-solution.pdf?key=nSFcLMvc)
+
 
 #### Schema, wenn wir zeigen wollen, dass $L$ das PL nicht erfüllt:
 1. Wir nehmen an dass $L$ regulär ist.

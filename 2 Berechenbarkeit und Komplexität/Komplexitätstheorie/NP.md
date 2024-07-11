@@ -1,9 +1,12 @@
 #theo/definition
 $\mathrm{NP} =$ die von einer [[NTM]] in polynomieller Zeit lösbaren Probleme 
+
+Für in exponentieller Zeit lösbarer Probleme gilt (gilt NICHT für NP Probleme):
 	In exponentieller Zeit lösbar (s. Simulation NTM durch [[DTM|DTM]])
 
 
 $\text { NP }:=\bigcup_{p \text { Polynom }} \operatorname{NTIME}(p(n))$
+[[NTIME(f(n))]]
 
 # Entscheidbarkeit
 Alle Probleme in NP sind entscheidbar. 

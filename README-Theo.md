@@ -13,6 +13,8 @@ If you want a better experience for these notes:
 # Useful Overviews
 [[Organisatorisches]]
 
+[[Übersicht Klausuraufgaben Excel]]
+
 [Website - THEO Offizielle Blätter Übersicht](https://teaching.model.in.tum.de/2024ss/theo/ex/sheets.html)
 ____
 ### Wichtig

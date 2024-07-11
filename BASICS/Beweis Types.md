@@ -15,7 +15,8 @@ Lösung:
 
 ### $L(G) \subseteq L$
 #theo/cheatsheet 
-##### Beispiel: Repetitorium 23 (21.9.23)
+besseres Beispiel: 
+##### Beispiel: Repetitorium 23 (21.9.23) (scheiße)
 Aufgabe 12. Sei $G=(\{S\},\{a, b\}, P, S)$ die Grammatik mit den Produktionen
 $S \rightarrow a S a|b S b| a \mid b$ und $L=\left\{w \in\{a, b\}^*\left|w=w^R,\right| w \mid\right.$ ungerade $\}$.
 (a) Zeigen Sie $L(G) \subseteq L$ mittels struktureller Induktion.
@@ -28,7 +29,8 @@ Lösung:
 
 ### $L \subseteq L(G)$
 #theo/cheatsheet  
-##### Beispiel: Repetitorium 23 (21.9.23)
+besseres Beispiel: [[Beweisen#$L subseteq L(G)$ (Ind. Beweis über die Länge)]]
+##### Beispiel: Repetitorium 23 (21.9.23) (scheiße)
 Aufgabe 12. Sei $G=(\{S\},\{a, b\}, P, S)$ die Grammatik mit den Produktionen
 $S \rightarrow a S a|b S b| a \mid b$ und $L=\left\{w \in\{a, b\}^*\left|w=w^R,\right| w \mid\right.$ ungerade $\}$.
 (b) Zeigen Sie $L \subseteq L(G)$ mittels Induktion über die Wortlänge.

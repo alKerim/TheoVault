@@ -58,6 +58,10 @@ Abschlusseigenschaften
 - $(A \cup B) C=A C \cup B C$
 - **Achtung**: i.A. gilt $A(B \cap C)=A B \cap A C$ nicht. ^11dae2
 - $A^{*} A^{*}=A^{*}$
+- **Tricks**
+	- $A \cup \bar{A} = \Sigma^*$ ... dies gilt für jede/egal welche Sprache
+		Mindshift: Wenn $A,B$ Sprachen mit $B=\bar{A}$ dann gilt $A \cup B = \Sigma^*$
+	- $A \cap \bar{A} = \emptyset$ ... dies gilt für jede/egal welche Sprache
 
 
 

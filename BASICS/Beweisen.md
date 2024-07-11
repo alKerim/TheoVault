@@ -3,7 +3,8 @@
 ## $A \subseteq B$
 Wähle ein beliebiges $x \in A$ und zeige $x \in B$.
 #### Beispiel Für Grammatiken ($L(G) \subseteq L$ und $L \subseteq L(G)$) 
-(Tutorium 5)
+(Tutorium 5) von [Ü5.6](https://teaching.model.in.tum.de/2024ss/theo/ex/ue05-nosolution.pdf?key=GCkpL14q) und Lösung von [Adrians Tutorfolien](https://zulip.in.tum.de/user_uploads/2/f9/AigI48jraioH3lprdi_rlr0q/Theo-S05.pdf) 
+
 Geg.:   $\begin{array}{l}L=\left\{a^n b^n \mid n \in \mathbb{N}\right\} \\ G: S \rightarrow a S b \mid \varepsilon\end{array}$
 Ges.: z.z.   $L(G)=L$
 
@@ -20,8 +21,7 @@ Fallunterscheidung
 	\end{equation*}$$
 
 
-
-##### $L \subseteq L(G):$
+##### $L \subseteq L(G)$: (Ind. Beweis über die Länge) 
 (wir zeigen für alle $w \in L$, dass es auch in $L(G)$ produziert werden kann)
 Induktion über die Länge:
 $\forall w \in \sum^*: w \in L \Rightarrow w \in L(G)$ durch starke Induktion über die Länge des Wortes n zeigen.
@@ -37,8 +37,18 @@ $\forall w \in \sum^*: w \in L \Rightarrow w \in L(G)$ durch starke Induktion ü
 	Damit $S \rightarrow_G aSb \rightarrow_{G^*}aub$  $=w$.
 
 #### Edge-Case $L(G) \subseteq \Sigma^*$
+#theo/cheatsheet 
 Trivial weil:
 $\forall w \in L(G)$ gilt $w \in \Sigma^*$, da $\Sigma^*$ die Menge aller möglichen Wörter über $\Sigma$ ist.
+
+
+#### Edge-Case $\Sigma^* \subseteq L(G)$
+Wir zeigen $\Sigma^* \subseteq L_G(T)$ per Induktion über die Wortlänge $n$ von $w \in \Sigma^*$. Im Fall $n=0$ gilt $w=\epsilon$ und $T \rightarrow \varepsilon$.
+**Ind. Hypothese:** Im Fall $w \in \Sigma^{n+1}$ erhalten wir als Induktionshypothese, dass 
+	$\Sigma^n \subseteq L_G(T)$. 
+Sei nun $x \in \Sigma$ und $v \in \Sigma^n$ mit $w=x v$. 
+Per I.H. gibt es eine Ableitung $T \rightarrow^* v$. 
+Falls $x=a$, folgt $T \rightarrow a T \rightarrow^* a v$. Falls $x=b$, folgt $T \rightarrow b T \rightarrow^* b v$.
 
 _____
 
