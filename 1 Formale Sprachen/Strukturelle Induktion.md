@@ -26,4 +26,7 @@ Harte ABER GUTE Aufgabe: [H2.6](https://teaching.model.in.tum.de/2024ss/theo/ex/
 
 
 
-
+# Beweis Mittels Struktureller Induktion
+#theo/beweis 
+[[Beweis Types#$L(G) subseteq L$]]
+[[Beweis Types#$L subseteq L(G)$]]

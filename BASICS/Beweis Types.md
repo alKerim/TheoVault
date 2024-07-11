@@ -14,6 +14,7 @@ Lösung:
 
 
 ### $L(G) \subseteq L$
+#theo/cheatsheet 
 ##### Beispiel: Repetitorium 23 (21.9.23)
 Aufgabe 12. Sei $G=(\{S\},\{a, b\}, P, S)$ die Grammatik mit den Produktionen
 $S \rightarrow a S a|b S b| a \mid b$ und $L=\left\{w \in\{a, b\}^*\left|w=w^R,\right| w \mid\right.$ ungerade $\}$.
