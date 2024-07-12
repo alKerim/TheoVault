@@ -3,8 +3,13 @@ $H_0:=\left\{w \in\{0,1\}^* \mid M_w[\epsilon] \downarrow\right\}$
 
 
 
-# Unentscheidbarkeit
-Das [[Halteproblem]] auf leerem Band, $H_0$, ist [[unentscheidbar]].
+# Entscheidbarkeit
+#theo/cheatsheet alles aus [[#Entscheidbarkeit]] hier auf Cheatsheet
+- Das [[Halteproblem]] auf leerem Band, $H_0$, ist [[unentscheidbar]].
+- $H_0$ ist [[semi-entscheidbar (s-e)]]
+- $\overline{H_0}$ ist [[nicht semi-entscheidbar]] 
+- $H_{0}\leq \overline{H_0}$ ist FALSCH. Nicht reduzierbar. Weil s-e$\leq$unentscheidbar und unentscheidbare Probleme komplexer als s-e
+
 
 ### Beweis
 Wir zeigen $K \leq H_0$ mit einer Funktion $f:\{0,1\}^* \rightarrow\{0,1\}^*$ $f(w)$ ist die Kodierung folgender TM:

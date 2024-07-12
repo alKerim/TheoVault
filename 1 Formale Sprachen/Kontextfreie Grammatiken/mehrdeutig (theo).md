@@ -15,6 +15,14 @@ Sprachen (zB [[Kontextfreie Grammatiken|kontextfreie Sprachen]]) können nicht m
 
 
 
+# Beweisen dass nicht mehrdeutig (=[[eindeutig]])
+[HA6.4](https://teaching.model.in.tum.de/2024ss/theo/ex/ha06-solution.pdf?key=DOuuxWLm)
+Schritte:
+Wir zeigen, dass $G$ [[eindeutig]] ist, indem wir 
+- für jedes Nichtterminal $X \in\{E, T, F\}$ und jedes Wort $w \in L_G(X)$ einen eindeutigen ersten Schritt in einem Syntaxbaum von $w$, das mit $X$ beginnt, angeben, d.h. eine eindeutige Produktion $X \rightarrow \beta$ und eindeutige Teilwörter von $w$ für jedes Nichtterminal in $\beta$. 
+- Da ein Syntaxbaum eines Wortes $w \in L(G)$ mit $E$ anfängt und jeder Schritt von einem Syntaxbaum zu Terminalen und zu Syntaxbäumen, die mit Nichtterminalen beginnen, führt, folgt daraus, dass der Syntaxbaum jedes Wortes eindeutig ist.
+Für genaueres siehe Lösung der HA im Link oben.
+
 
 ______
 Related: [[inhärent mehrdeutig]]

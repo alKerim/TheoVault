@@ -1,0 +1,1 @@
+Eine Grammatik ist eindeutig gdw sie nicht [[mehrdeutig (theo)|mehrdeutig]] ist.

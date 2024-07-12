@@ -89,7 +89,11 @@ Falls $A \Rightarrow B$ zu zeigen ist, zeige $\neg A \Leftarrow \neg B$ oder bez
 _____
 # Widerlegen einer Aussage
 ## Angeben eines Gegenbeispiels
-Selbsterklärend
+Selbsterklärend.
+
+#### Hilfsgedanken:
+bspsweise: "Zeigen oder widerlegen Sie: $\overline{L}$ regulär"
+	Kennen wir $L$ ? Ist $L$ regulär ? Wenn $L$ nicht regulär, dann $\overline{L}$ auch nicht regulär, wegen [[Abschlusseigenschaften regulärer Sprachen]]
 
 
 # Formaler Widerspruchsbeweis

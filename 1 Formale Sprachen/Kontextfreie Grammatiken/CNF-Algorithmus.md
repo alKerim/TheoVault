@@ -29,3 +29,8 @@ Edge Cases: #theo/wichtig
 - $S \rightarrow S$ darf man löschen 
 
 
+# Korrektheit von CNF-Alg prüfen
+#theo/cheatsheet 
+- Prüfen, dass alle Produktionen die Form $A \rightarrow B C$ oder $A \rightarrow a$ haben.
+- Insbesondere darf $\varepsilon$ nur vom Startsymbol (oder gar nicht, wie hier) produziert werden.
+- Für einige kleine/leichte Worte überprüfen, dass Sie von beiden Grammatiken (nicht) erzeugt werden können.

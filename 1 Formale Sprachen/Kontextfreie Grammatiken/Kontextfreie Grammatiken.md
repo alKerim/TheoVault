@@ -1,7 +1,7 @@
 Grundlagen der syntaktischen Analyse von Programmiersprachen, Parsing, Compilerbau.
 
 # Fakten
-- Kontextfreie Grammatiken dienen zur Spezifikation von Sprachen. 
+- Kontextfreie [[Grammatik]]en dienen zur Spezifikation von Sprachen. 
 - Jede Grammatik lässt sich in [[Chomsky-Normalform]] umwandeln.
 - Es gibt **Nicht-Kontextfreie Grammatiken** die [[Kontextfreie Sprache|Kontextfreie Sprachen]] beschreiben. ^05825b
 

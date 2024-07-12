@@ -6,6 +6,7 @@ Mit $|w|_x$ bezeichnen wir die Anzahl der Vorkommen des Buchstabens $x \in \Sigm
 
 # Grammatik Konstruieren
 [[ε-NFA -> NFA]]
+[HA6.5 a) und b)](https://teaching.model.in.tum.de/2024ss/theo/ex/ha06-solution.pdf?key=DOuuxWLm)
 
 
 
