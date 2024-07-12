@@ -32,9 +32,10 @@
 	\end{equation*}$$
 	Wir schreiben alle Buchstaben das Wortes doppelt und verschieben $A$ und $B$ bis zum Ende (markiert mit $O$ ) und wandeln dort das Zeichen wieder um.
 - [ ] Konstruieren: 
-	- [ ] [[Grammatiken konstruieren]]
-	- [ ] PDAs
-	- [ ] TM konstruieren
+	- [ ] [[Konstruktion einer Grammatik]]
+	- [ ] [[Konstruktion eines PDA]]
+	- [ ] [[Konstruktion einer TM]]
+
 
 
 
