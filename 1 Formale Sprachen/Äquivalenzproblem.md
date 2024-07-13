@@ -27,7 +27,7 @@ da für DFAs Komplement und Durchschnitt wieder endliche Automaten liefern und d
 Das Äquivalenzproblem für DFAs ist in Zeit 
 $O\left(\left|Q_1\right|\left|Q_2\right||\Sigma|\right)$ 
 entscheidbar.
-
+0
 Beweis:
 Geg.: DFAs $M_1$ mit $m$ und $M_2$ mit $n$ Zuständen. Mit Hilfe der [[DFA + DFA (Produkt-konstruktion)|Produkt-Konstruktion]] für $\cap$ folgt:
 $$\begin{array}{c|c} 
