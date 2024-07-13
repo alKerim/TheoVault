@@ -19,5 +19,5 @@ Wiederhole so lang wie möglich:
 - Entferne den Zustand $q$ zusammen mit all seinen eingehenden und ausgehenden Übergängen.
 	Wenn $q$ eine Schleife hat
 	![[Screenshot 2024-04-28 at 20.09.53.png]]
-	Wenn $q$ KEINE Schleife hat
+	Wenn $q$ KEINE Schleife hat (siehe [zulip](https://zulip.in.tum.de/#narrow/stream/2196-THEO-SS24-Allgemein/topic/NFA.20-.3E.20RE/near/1586010))
 	![[Screenshot 2024-07-06 at 11.43.06.png]]

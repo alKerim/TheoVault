@@ -6,6 +6,13 @@ Eine Menge $M$ ist **abzählbar** falls es eine injektive Funktion $M \rightarro
 
 Eine Menge ist [[überabzählbar]] wenn sie nicht abzählbar ist.
 
+# Edge Mengen
+| abzählbar   | überabzählbar                                                            |
+| ----------- | ------------------------------------------------------------------------ |
+| $\emptyset$ |                                                                          |
+| $\Sigma^*$  | Menge $\left\{L \subseteq \Sigma^*\right\}$ aller Sprachen über $\Sigma$ |
+|             |                                                                          |
+
 
 # Beispiele
 #### Beispiel 1

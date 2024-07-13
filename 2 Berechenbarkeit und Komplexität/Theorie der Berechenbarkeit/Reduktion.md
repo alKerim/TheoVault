@@ -47,3 +47,32 @@ Beim Halteproblem auf leerem Band: Ich verstehe nicht, warum man das Programm oh
 
 Antwort:
 	Ich verstehe die Frage nicht ganz. In beiden Fällen haben wir doch eine Eingabe? Im ersten Fall ist es die Kodierung der TM selbst und im zweiten Fall ist es das leere Wort.
+
+
+
+# Templates
+### (Ist $L\left(G_1\right) \subseteq L\left(G_2\right)$?) $\leq$ Ist ($L\left(G_1\right)=L\left(G_2\right)$?)
+[Ü11.3 a)](https://teaching.model.in.tum.de/2024ss/theo/ex/ue11-nosolution.pdf?key=wzjSitSL), [Lösung von Adrian](https://zulip.in.tum.de/user_uploads/2/13/BBJjE0eoqAU8b3ukjozU4Nme/Theo-S11.pdf):
+$\langle 3\rangle$ Ist $L\left(G_1\right) \subseteq L\left(G_2\right)$ ?
+$\langle 4\rangle$ Ist $L\left(G_1\right)=L\left(G_2\right)$ ?
+Reduktion
+	Für $G_1^{\prime}$ und $G_2^{\prime}$ roll gelten
+	$$\begin{equation*}
+	\begin{aligned}
+	L\left(G_1^{\prime}\right)= & L\left(G_1\right) \cup L\left(G_2\right) \quad L\left(G_2^{\prime}\right)=L\left(G_2\right) \\
+	& \left(G_1, G_2\right) \in\langle 3\rangle \\
+	\Leftrightarrow & L\left(G_1\right) \leq L\left(G_2\right) \\
+	\Leftrightarrow & L\left(G_1\right) \cup L\left(G_2\right)=L\left(G_2\right) \\
+	\Leftrightarrow & L\left(G_1^{\prime}\right)=L\left(G_2^{\prime}\right) \\
+	\Leftrightarrow & \left(G_1^{\prime}, G_2^{\prime}\right) \in\langle 4\rangle \\
+	\Leftrightarrow & f\left(G_1^{\prime}, G_2^{\prime}\right) \in\langle 4\rangle
+	\end{aligned}
+	\end{equation*}$$
+### (Ist $L\left(G_1\right) \cap L\left(G_2\right)=\emptyset$ ?) $\leq$ (Ist $\left|L\left(G_1\right) \cap L\left(G_2\right)\right|<\infty$ )
+[Ü11.3 b)](https://teaching.model.in.tum.de/2024ss/theo/ex/ue11-nosolution.pdf?key=wzjSitSL), [Lösung von Adrian](https://zulip.in.tum.de/user_uploads/2/13/BBJjE0eoqAU8b3ukjozU4Nme/Theo-S11.pdf):
+$\langle 1\rangle$ Ist $L\left(G_1\right) \cap L\left(G_2\right)=\emptyset$ ?
+$\langle 2\rangle$ Ist $\left|L\left(G_1\right) \cap L\left(G_2\right)\right|<\infty$ ?
+Reduktion:
+	$\begin{aligned} L\left(G_1^{\prime}\right)= & L\left(c^*\right) L\left(G_1\right) \quad L\left(G_2^{\prime}\right)=L\left(c^*\right) L\left(b_2\right) \\ & \left(G_1, G_2\right) \in\langle 1\rangle \\ \Rightarrow & L\left(G_1\right) \cap L\left(G_2\right)=\varnothing \\ \Leftrightarrow & \left|L\left(c^*\right)\left(L\left(G_1\right) \cap L\left(G_2\right)\right)\right|<\infty \\ \Rightarrow & \left|L\left(G_1^{\prime}\right) \cap L\left(G_2^{\prime}\right)\right|<\infty \\ \Rightarrow & f\left(b_1, G_2\right) \in\langle 2\rangle\end{aligned}$
+
+
