@@ -3,6 +3,7 @@
 ## $A \subseteq B$
 Wähle ein beliebiges $x \in A$ und zeige $x \in B$.
 #### Beispiel Für Grammatiken ($L(G) \subseteq L$ und $L \subseteq L(G)$) 
+#theo/strukturelleinduktion
 (Tutorium 5) von [Ü5.6](https://teaching.model.in.tum.de/2024ss/theo/ex/ue05-nosolution.pdf?key=GCkpL14q) und Lösung von [Adrians Tutorfolien](https://zulip.in.tum.de/user_uploads/2/f9/AigI48jraioH3lprdi_rlr0q/Theo-S05.pdf) 
 
 Geg.:   $\begin{array}{l}L=\left\{a^n b^n \mid n \in \mathbb{N}\right\} \\ G: S \rightarrow a S b \mid \varepsilon\end{array}$

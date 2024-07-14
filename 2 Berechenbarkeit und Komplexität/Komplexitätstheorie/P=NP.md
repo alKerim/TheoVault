@@ -8,6 +8,7 @@ $\mathrm{P} = \mathrm{NP}$ ?
 
 
 
+
 # gdw's
 Es gilt $P=N P$ gdw ein [[NP-vollständig|NP-vollständiges]] Problem in $P$ liegt.
 
@@ -24,4 +25,14 @@ Das Problem hierbei ist, dass es exponentiell viele Lösungen gibt.
 
 
 # Falls P=NP
+Dann [[NP]] = [[P]] = [[NP-vollständig]]
+Außer $\Sigma^*$ und $\emptyset$ 
+
+Für zwei beliebige Probleme A,B (also egal ob P oder NP)
+muss nun immer gelten, dass $A \leq_{p}B$ 
+![[Screenshot 2024-07-14 at 10.20.23.png|400]]
+
+# Falls P$\neq$NP
+Alle
+
 ![[Screenshot 2024-07-08 at 18.05.20.png|500]]

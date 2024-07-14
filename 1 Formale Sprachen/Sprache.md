@@ -46,16 +46,18 @@ Bsp: $\Sigma^{+}=$Menge aller nicht-leeren Wörter über $\Sigma$
 
 ### Rechenregeln für Sprachen
 - $\emptyset A=\emptyset$ #theo/basics
-- $\emptyset | \alpha = \alpha$ 
 - $\{\epsilon\} A=A$ #theo/basics
 - Für alle $A: \epsilon \in A^*$
 - $\emptyset^*=\{\epsilon\}$ #theo/basics 
 - $A \times \emptyset = \emptyset$ 
-- $\emptyset \in L$ für wirklich jede einzelne Sprache $L \subseteq \Sigma^*$ #theo/basics
+- $\emptyset \subseteq L$ für wirklich jede einzelne Sprache $L \subseteq \Sigma^*$ #theo/basics
+- $\emptyset \cup L = L$
+
 
 Abschlusseigenschaften
 - $A(B \cup C)=A B \cup A C$
 - $(A \cup B) C=A C \cup B C$
+- $\forall$ Sprachen $A, B, C$ gilt $(A \backslash C) B=A B \backslash C B$. Gegenbsp.: $A=\{a a\}, B=\{\epsilon, a\}$ und $C=\{a a a\}$
 - **Achtung**: i.A. gilt $A(B \cap C)=A B \cap A C$ nicht. ^11dae2
 - $A^{*} A^{*}=A^{*}$
 - **Tricks**

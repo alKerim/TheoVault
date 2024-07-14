@@ -1,7 +1,30 @@
 
 - [ ] Basics
-	- [ ] [[Basics Sheet]]
+	- [x] [[Basics Sheet]] Formale Sprachen
+	- [ ] Tupel, transitionen von
+		- [x] [[NFA - Nichtdeterministische endliche Automaten]]
+		- [x] [[Grammatik]]
+			- [x] [[Rechtslineare Grammatiken]]
+			- [x] [[Kontextfreie Grammatiken]]
+			- [x] [[Typ 0]]
+		- [x] [[Kellerautomat - PDA]]
+	- [x] [[Typ 0]] facts und Auserhalb von Typ 0 definieren
 	- [ ] [[regulär]] gdw's
+	- [ ] [[Beweisen]], [[Beweis Types]]
+- [ ] Grammatiken
+	- [ ] ww
+	$D:=\left\{w w: w \in\{a, b\}^*\right\} \quad$ (schwierig)
+	$G:=(\{S, X, O, A, B\},\{a, b\}, P, S)$ mit Produktionen $P$ wie folgt
+	$$\begin{equation*}
+	\begin{array}{lll}
+	S \rightarrow X O & O \rightarrow \varepsilon & X \rightarrow X a A|X b B| \varepsilon \\
+	A a \rightarrow a A & B a \rightarrow a B & A O \rightarrow O a \\
+	A b \rightarrow b A & B b \rightarrow b B & B O \rightarrow O b
+	\end{array}
+	\end{equation*}$$
+	Wir schreiben alle Buchstaben das Wortes doppelt und verschieben $A$ und $B$ bis zum Ende (markiert mit $O$ ) und wandeln dort das Zeichen wieder um.
+	- [ ] $ww^R$ 
+	- [ ] Menge aller balancierten wörter
 
 - [ ] Sprachen Regeln
 	- [ ] Operationen auf Sprachen
@@ -19,18 +42,12 @@
 	- [ ] Zwei Sprachen sind nicht gleich beweisen -> mindestens ein Wort in A das nicht in B ist
 
 
-- [ ] Grammatiken
-	- [ ] ww
-	$D:=\left\{w w: w \in\{a, b\}^*\right\} \quad$ (schwierig)
-	$G:=(\{S, X, O, A, B\},\{a, b\}, P, S)$ mit Produktionen $P$ wie folgt
-	$$\begin{equation*}
-	\begin{array}{lll}
-	S \rightarrow X O & O \rightarrow \varepsilon & X \rightarrow X a A|X b B| \varepsilon \\
-	A a \rightarrow a A & B a \rightarrow a B & A O \rightarrow O a \\
-	A b \rightarrow b A & B b \rightarrow b B & B O \rightarrow O b
-	\end{array}
-	\end{equation*}$$
-	Wir schreiben alle Buchstaben das Wortes doppelt und verschieben $A$ und $B$ bis zum Ende (markiert mit $O$ ) und wandeln dort das Zeichen wieder um.
+- [ ] Residualsprachen
+	- [ ] Definition [[Äquivalenzklasse]]
+	- [ ] [[#Unendliche Residualsprachen beweisen]]
+	- [ ] zwei residualsprachen unterschiedlich 
+
+
 - [ ] Konstruieren: 
 	- [ ] [[Konstruktion einer Grammatik]]
 	- [ ] [[Konstruktion eines PDA]]
@@ -98,6 +115,12 @@ ____
 
 ##### PDA -> CFG
 [[PDA -> CFG]]
+
+##### Leerer Stack -> Endzustand
+[[Kellerautomat - PDA#Konvertierung leerer Keller -> Endzustand]]
+
+##### Endzustand -> Leerer Stack
+[[Kellerautomat - PDA#Konvertierung Endzustand -> leerer Keller]]
 
 ## CYK (Wortproblem)
 [[CYK Algorithmus]]

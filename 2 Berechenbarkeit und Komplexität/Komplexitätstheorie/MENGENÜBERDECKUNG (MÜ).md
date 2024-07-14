@@ -21,3 +21,7 @@ Kann die Firma ihre Bedürfnisse mit $k$ Zulieferern abdecken?
 # Eigenschaften
 $M \ddot{U} \in$ [[NP]]
 
+
+![[Screenshot 2024-07-14 at 11.08.29.png]]
+
+

@@ -3,7 +3,10 @@ TODO: Grammatiken, Sprachen, Alle Dinge die man auswendig im Schlaf können muss
 
 ![[Sprache#Rechenregeln für Sprachen]]
 
+![[RE - Reguläre Ausdrücke#Regeln]]
+
 ![[RE - Reguläre Ausdrücke#Rekursive Definition der Sprache]]
+
 
 
 ![[Sprache#Beispiel endliche Sprache]]
@@ -13,11 +16,15 @@ TODO: Grammatiken, Sprachen, Alle Dinge die man auswendig im Schlaf können muss
 
 ___
 [[abzählbar]] & [[überabzählbar]]
+![[abzählbar#Edge Mengen]]
 ____
-[[paarweise verschieden]]
+[[paarweise verschieden]], [[paarweise verschiedene Residualsprachen]]
 ____
 
 # Berechenbarkeit
 [[berechenbar]]
-[[entscheidbar]], [[nicht entscheidbar]]
+[[semi-entscheidbar (s-e)]]
+[[entscheidbar]]
+[[nicht entscheidbar]]
+
 

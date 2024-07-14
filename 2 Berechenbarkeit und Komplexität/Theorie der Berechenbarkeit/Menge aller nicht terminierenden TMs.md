@@ -1,3 +1,5 @@
+#theo/cheatsheet 
+
 $L_{\Sigma^*}:=\left\{w \in \Sigma^*: L\left(M_w\right) \neq \Sigma^*\right\}$
 $L_{\emptyset}:=\left\{w \in \Sigma^*: L\left(M_w\right)=\emptyset \right\}$
 
