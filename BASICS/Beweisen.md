@@ -25,8 +25,8 @@ Fallunterscheidung
 ##### $L \subseteq L(G)$: (Ind. Beweis über die Länge) 
 (wir zeigen für alle $w \in L$, dass es auch in $L(G)$ produziert werden kann)
 Induktion über die Länge:
-$\forall w \in \sum^*: w \in L \Rightarrow w \in L(G)$ durch starke Induktion über die Länge des Wortes n zeigen.
-- Fall $n=0: \quad E_1$ folgt $w=\varepsilon$ und $S \rightarrow_G \varepsilon$.
+$\forall w \in \sum^*: w \in L \Rightarrow w \in L(G)$ durch starke Induktion über die Länge $n$ des Wortes $w$ zeigen.
+- Fall $n=0$: Es folgt $w=\varepsilon$ und $S \rightarrow_G \varepsilon$.
 - Fall $n=1$ : Es folgt $w=a$ oder $w=b$. 
 	Jedoch $a, b \notin L$. 
 	Widerspruch zur Annahme w $\in L$ !

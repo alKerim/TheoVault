@@ -18,6 +18,14 @@ Methode: Für jedes $a \in \Sigma$
 
 # NEUER Algorithmus
 
+Zu jeder $C F G G=(V, \Sigma, P, S)$ kann man einen PDA $M$ konstruieren, der mit leerem Stack akzeptiert, so dass $L_\epsilon(M)=L(G)$.
+Konstruktion: Der PDA wird wie folgt definiert:
+$M:=(\{q\}, \Sigma, \Sigma \cup V, q, S, \delta)$
+(Ein Zustand, Kelleralphabet $\Sigma \cup V$, unterstes Kellerzeichen $S$ ) mit
+- Für alle $a \in \Sigma$ und $Z \in \Sigma \cup V: \delta(q, a, Z)=\{(q, \epsilon)\}$ wenn $Z=a$ und $\delta(q, a, Z)=\emptyset$ sonst.
+- Für alle $Z \in \Sigma \cup V: \delta(q, \epsilon, Z)=\{(q, \alpha) \mid(Z \rightarrow \alpha) \in P\}$.
+
+#### verständlicher:
 Der PDA wird wie folgt definiert:
 $M \quad:=\quad(\{q\}, \Sigma, V, q, S, \delta)$
 

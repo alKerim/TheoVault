@@ -105,10 +105,10 @@ Sei $n \in \mathbb{N}$ die PL-Zahl.
 Nun wählen wir das Wort $z:=a^n b^n a^n b^n$. 
 Nach PL existiert eine Zerlegung $z=u v w$. 
 
-Es gilt $|u v| \leq n$ und $v \neq \varepsilon$, 
+Es gilt (1) $|u v| \leq n$, (2) $v \neq \varepsilon$, (3) $\forall i \geq : uv^{i}w\in L$ 
 wir können also $v=a^i$ schreiben, für ein $i>0$. 
 Nun gilt auch $u v^0 w \in L_1$, aber $u w=a^{n-i} b^n a^n b^n \notin L$, da $n-i \neq n$. 
-Dies ist ein Widerspruch, $L_1$ kann somit nicht regulär sein.
+Dies ist ein Widerspruch zu (3), $L_1$ kann somit nicht regulär sein.
 
 
 

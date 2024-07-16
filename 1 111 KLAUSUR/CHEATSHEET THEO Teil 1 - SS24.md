@@ -1,7 +1,7 @@
 
-- [ ] Basics
+- [x] Basics
 	- [x] [[Basics Sheet]] Formale Sprachen
-	- [ ] Tupel, transitionen von
+	- [x] Tupel, transitionen von
 		- [x] [[NFA - Nichtdeterministische endliche Automaten]]
 		- [x] [[Grammatik]]
 			- [x] [[Rechtslineare Grammatiken]]
@@ -9,9 +9,9 @@
 			- [x] [[Typ 0]]
 		- [x] [[Kellerautomat - PDA]]
 	- [x] [[Typ 0]] facts und Auserhalb von Typ 0 definieren
-	- [ ] [[regulär]] gdw's
-	- [ ] [[Beweisen]], [[Beweis Types]]
-- [ ] Grammatiken
+	- [x] [[regulär]] gdw's
+
+- [x] Grammatiken
 	- [ ] ww
 	$D:=\left\{w w: w \in\{a, b\}^*\right\} \quad$ (schwierig)
 	$G:=(\{S, X, O, A, B\},\{a, b\}, P, S)$ mit Produktionen $P$ wie folgt
@@ -23,40 +23,75 @@
 	\end{array}
 	\end{equation*}$$
 	Wir schreiben alle Buchstaben das Wortes doppelt und verschieben $A$ und $B$ bis zum Ende (markiert mit $O$ ) und wandeln dort das Zeichen wieder um.
-	- [ ] $ww^R$ 
-	- [ ] Menge aller balancierten wörter
+	- [x] $ww^R$ 
+	- [x] Menge aller balancierten wörter
 
-- [ ] Sprachen Regeln
-	- [ ] Operationen auf Sprachen
-		- [ ] EDGE CASES von CheatSheet refactoren
-		- [ ] [[Sprache#Operationen auf Sprachen]]
-	- [ ] RE Regeln
-	- [ ] Liste kleiner Beweise
-		- [ ] $A^*=A^{+} \text {genau dann wenn (gdw.) } \varepsilon \in A$  |   (Ü1.7 a) )
+- [x] Sprachen Regeln
+	- [x] Liste kleiner Beweise
+		- [x] $A^*=A^{+} \text {genau dann wenn (gdw.) } \varepsilon \in A$  |   (Ü1.7 a) )
 			Die Aussage ist wahr. Wir zeigen beide Richtungen der Aussage getrennt.
 			$\Longleftarrow$ : Annahme $\varepsilon \in A$. Dann gilt $A=\{\varepsilon\} \cup A=A^0 \cup A$. Per Definition gilt
 			$$\begin{equation*}
 			A^{+}=\bigcup_{n \geq 1} A^n=A \cup \bigcup_{n \geq 2} A^n=A^0 \cup A \cup \bigcup_{n \geq 2} A^n=\bigcup_{n \geq 0} A^n=A^* \text {. }
 			\end{equation*}$$
 			$\Longrightarrow$ : Annahme $A^*=A^{+}$. Da $\varepsilon \in A^*$, muss auch $\varepsilon \in A^{+}$gelten. Nach Vorlesung gilt $A^{+}=A A^*$, also folgt $\varepsilon \in A A^*$. Also gibt es $u \in A$ und $v \in A^*$ mit $\varepsilon=u v$. Daraus folgt $u=\varepsilon$ und $v=\varepsilon$. Da $u \in A$ gilt, ist $\varepsilon \in A$ gezeigt.
-	- [ ] Zwei Sprachen sind nicht gleich beweisen -> mindestens ein Wort in A das nicht in B ist
+	- [x] Zwei Sprachen sind nicht gleich beweisen -> mindestens ein Wort in A das nicht in B ist
+
+- [ ] [[Beweisen]], [[Beweis Types]]
+	- [x] $L \subseteq L(G)$, $L(G) \subseteq L$
+	- [ ] Beweis Beispiel von Woche 13... [Endterm 2021Aufgabe 9](https://zulip.in.tum.de/user_uploads/2/12/pgg6QBv01c5DzlfTtFhElkOO/Theo-S13_nosolution.pdf#page=10)
+Beweis Tipps von Adrian:
+	Irgendein Beispiel finden an das man sich
+	Struktur finden, die man sich abschauen kann. 
+	Beweis Types. 
+	Bewei
+
+- [ ] Pumping Lemma
+	- [x] regular
+		- [x] PL erfüllt: [[Pumping Lemma#Schema wenn wir PL für L beweisen wollen (Also L das PL erfüllt):]]
+		- [x] PL nicht regular [[Pumping Lemma#Template für PL reguläre Sprachen]]
+	- [ ] kontextfrei
+		- [ ] PL erfüllt - NOTHING FOUND
+		- [x] PL nicht regulär [[Pumping Lemma für kontextfreie Sprachen#Template Beispielaufgabe (Endterm23)]]
 
 
-- [ ] Residualsprachen
-	- [ ] Definition [[Äquivalenzklasse]]
-	- [ ] [[#Unendliche Residualsprachen beweisen]]
-	- [ ] zwei residualsprachen unterschiedlich 
+- [x] [[#Strukturelle Induktion]]
 
 
-- [ ] Konstruieren: 
-	- [ ] [[Konstruktion einer Grammatik]]
-	- [ ] [[Konstruktion eines PDA]]
-	- [ ] [[Konstruktion einer TM]]
+- [x] Residualsprachen
+	- [x] Definition [[Äquivalenzklasse]]
+		- [x] Beispiel
+	- [x] zwei residualsprachen unterschiedlich  (Basic)
+	- [x] [[#Unendliche Residualsprachen beweisen]]
 
 
+- [x] Konstruieren: 
+	- [x] [[Konstruktion einer Grammatik]]
+	- [x] [[Konstruktion eines PDA]]
+	- [x] [[Konstruktion einer TM]]
+
+- [ ] Algorithmen
+	- [x] [[#Konvertierungen]]
+		- [x] e-NFA -> NFA (NO)
+		- [x] RE -> e-NFA
+		- [x] e-NFA -> RE
+		- [x] NFA -> RE (ARDENS LEMMA)
+		- [x] NFA -> DFA (Potenzmengen Konstruktion)
+		- [x] Rechtsl. Gr. -> NFA
+		- [x] NFA -> Rechtsl. Gr.
+	- [ ] CFGs
+		- [x] CNF Algorithmus
+		- [x] CFG -> PDA
+		- [x] PDA -> CFG
+		- [x] Leerer Stack -> Endzustand
+		- [x] Endzustand -> Leerer Stack
+	- [ ] DFA + DFA
+	- [ ] Minimierung
+	- [ ] [[#CYK (Wortproblem)]]
+	- [ ] Eliminations-Algorithmus [[#Nützliche Nichtterminale]]
 
 
-
+all my daydreams used to be nightmares
 ______
 # Strukturelle Induktion
 ![[Strukturelle Induktion#Algorithmus (Induktionsbeweis) - Beispiel]]

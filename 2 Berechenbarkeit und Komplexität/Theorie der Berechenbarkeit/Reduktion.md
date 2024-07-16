@@ -76,3 +76,22 @@ Reduktion:
 	$\begin{aligned} L\left(G_1^{\prime}\right)= & L\left(c^*\right) L\left(G_1\right) \quad L\left(G_2^{\prime}\right)=L\left(c^*\right) L\left(b_2\right) \\ & \left(G_1, G_2\right) \in\langle 1\rangle \\ \Rightarrow & L\left(G_1\right) \cap L\left(G_2\right)=\varnothing \\ \Leftrightarrow & \left|L\left(c^*\right)\left(L\left(G_1\right) \cap L\left(G_2\right)\right)\right|<\infty \\ \Rightarrow & \left|L\left(G_1^{\prime}\right) \cap L\left(G_2^{\prime}\right)\right|<\infty \\ \Rightarrow & f\left(b_1, G_2\right) \in\langle 2\rangle\end{aligned}$
 
 
+
+# Cheatsheet Strategien
+- Verschiedene Typen von Reduktionen aufs Cheatsheets
+- 
+
+# Denk Strategien
+wenn ein w in A ist, dann soll es auch in B sein 
+wenn ein w nicht in A ist, dann soll es auch nicht in B sein 
+oder
+wenn ein w in A ist, dann soll es nicht in B sein
+
+- Gadgets: wie bilde ich eine Klausel ab, 
+	- kleinere strukturen herzuleiten die zb eine Klausel darstellen
+	- dazu nochmal auf HA12 schauen
+
+
+- Edge Cases nicht vergessen 
+
+- auf hilfsblatt mit reduktionen rumprobieren, damit man auf die richtige idee kommt
