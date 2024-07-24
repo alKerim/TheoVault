@@ -8,7 +8,7 @@ $H_0:=\left\{w \in\{0,1\}^* \mid M_w[\epsilon] \downarrow\right\}$
 - Das [[Halteproblem]] auf leerem Band, $H_0$, ist [[unentscheidbar]].
 - $H_0$ ist [[semi-entscheidbar (s-e)]]
 - $\overline{H_0}$ ist [[nicht semi-entscheidbar]] 
-- $H_{0}\leq \overline{H_0}$ ist FALSCH. Nicht reduzierbar. Weil s-e$\leq$unentscheidbar und unentscheidbare Probleme komplexer als s-e
+- $H_{0}\leq \overline{H_0}$ ist FALSCH. Nicht reduzierbar. Weil s-e$\leq$ nicht s-e und nicht s-e Probleme komplexer als s-e
 
 
 ### Beweis

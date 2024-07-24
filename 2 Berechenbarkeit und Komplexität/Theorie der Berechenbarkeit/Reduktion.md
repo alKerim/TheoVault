@@ -79,7 +79,7 @@ Reduktion:
 
 # Cheatsheet Strategien
 - Verschiedene Typen von Reduktionen aufs Cheatsheets
-- 
+
 
 # Denk Strategien
 wenn ein w in A ist, dann soll es auch in B sein 

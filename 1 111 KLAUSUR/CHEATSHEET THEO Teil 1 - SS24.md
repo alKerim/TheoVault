@@ -70,7 +70,7 @@ Beweis Tipps von Adrian:
 	- [x] [[Konstruktion eines PDA]]
 	- [x] [[Konstruktion einer TM]]
 
-- [ ] Algorithmen
+- [x] Algorithmen
 	- [x] [[#Konvertierungen]]
 		- [x] e-NFA -> NFA (NO)
 		- [x] RE -> e-NFA
@@ -79,16 +79,19 @@ Beweis Tipps von Adrian:
 		- [x] NFA -> DFA (Potenzmengen Konstruktion)
 		- [x] Rechtsl. Gr. -> NFA
 		- [x] NFA -> Rechtsl. Gr.
-	- [ ] CFGs
+	- [x] CFGs
 		- [x] CNF Algorithmus
 		- [x] CFG -> PDA
 		- [x] PDA -> CFG
 		- [x] Leerer Stack -> Endzustand
 		- [x] Endzustand -> Leerer Stack
-	- [ ] DFA + DFA
-	- [ ] Minimierung
-	- [ ] [[#CYK (Wortproblem)]]
-	- [ ] Eliminations-Algorithmus [[#Nützliche Nichtterminale]]
+	- [x] DFA + DFA
+	- [x] Minimierung
+	- [x] [[#CYK (Wortproblem)]]
+	- [x] Eliminations-Algorithmus [[#Nützliche Nichtterminale]]
+
+
+- [ ] Endterm 2021 - Aufgabe 9
 
 
 all my daydreams used to be nightmares

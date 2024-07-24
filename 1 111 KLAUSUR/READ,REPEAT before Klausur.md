@@ -15,3 +15,7 @@ Algorithmus
 [[Strukturelle Induktion#Algorithmus (Induktionsbeweis) - Beispiel]]
 
 
+
+
+### SAT (Formal F...) / KNF
+[3-OCC-KNF adrian](https://zulip.in.tum.de/user_uploads/2/42/UpE-jYllXqIzzoZ23F8ssZqe/Theo-S12.pdf)

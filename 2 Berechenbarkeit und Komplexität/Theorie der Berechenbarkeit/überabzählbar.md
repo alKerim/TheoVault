@@ -1,4 +1,4 @@
-Eine Menge ist überabzählbar wenn sie nicht [[abzählbar]] ist.
+Überbau enge ist überabzählbar wenn sie nicht [[abzählbar]] ist.
 
 
 # Beispiel

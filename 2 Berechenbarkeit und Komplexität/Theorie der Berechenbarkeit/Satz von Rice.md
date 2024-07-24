@@ -28,7 +28,7 @@ _____
 ### von Quiz Frage Q10.4. ( $z u$ H10.3)
 Mehrfachauswahl. Sei $\Sigma:=\{0,1\}$. Auf welche der folgenden Sprachen lässt sich der Satz von Rice anwenden?
 (a) $\left\{w \in \Sigma^*:\left|\varphi_w(x)\right|=42\right.$ für alle $\left.x \in \mathbb{N}\right\}$
-	Da wir $F$ definieren können als die Menge der Funiktionen die eine Zeichenkette der Länge 42 zurúckgeben.
+	Da wir $F$ definieren können als die Menge der Funktionen die eine Zeichenkette der Länge 42 zurückgeben.
 	Da $F \not = \emptyset$  und $F$ obviously nicht die Menge aller ber. Funktionen ist gilt:
 	$\varphi_{w}\in F$ ist unentscheidbar laut **Satz von Rice**.  
 (b) $\left\{w \in \Sigma^*:\left(\left|\varphi_w(x)\right|-5\right)^2 \geq 3\right.$ für alle $\left.x \in \mathbb{N}\right\}$

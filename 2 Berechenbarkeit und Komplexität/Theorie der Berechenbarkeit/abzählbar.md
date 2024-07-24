@@ -12,6 +12,7 @@ Eine Menge ist [[überabzählbar]] wenn sie nicht abzählbar ist.
 | $\emptyset$ |                                                                          |
 | $\Sigma^*$  | Menge $\left\{L \subseteq \Sigma^*\right\}$ aller Sprachen über $\Sigma$ |
 |             |                                                                          |
+|             |                                                                          |
 
 
 # Beispiele

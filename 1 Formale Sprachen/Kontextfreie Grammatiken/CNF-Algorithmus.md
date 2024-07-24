@@ -7,6 +7,7 @@ zu
 $A \rightarrow X_aB$
 $X_a \rightarrow a$
 #### 2: Entfernen langer Produktionen
+VON LINKS NACH RECHTS
 $S \rightarrow ASA$
 zu
 $S \rightarrow AX_{SA}$

@@ -28,6 +28,10 @@ Das Problem hierbei ist, dass es exponentiell viele Lösungen gibt.
 Dann [[NP]] = [[P]] = [[NP-vollständig]]
 Außer $\Sigma^*$ und $\emptyset$ 
 
+Dann 
+- gilt: $3-S A T \leq_p\left\{0^n 1^n 0^n \mid n \in \mathbb{N}\right\}$
+- gilt NICHT: $\left\{0^n 1^n 0^n \mid n \in \mathbb{N}\right\} \leq_p 3-S A T$
+
 Für zwei beliebige Probleme A,B (also egal ob P oder NP)
 muss nun immer gelten, dass $A \leq_{p}B$ 
 ![[Screenshot 2024-07-14 at 10.20.23.png|400]]
