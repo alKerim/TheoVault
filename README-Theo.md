@@ -2,13 +2,6 @@ You can navigate this Obsidian Vault on the left hand side through the folder st
 The search function works very well too.
 There are many links within the notes, which can help you access some definitions or references very easily to help you understand better.
 
-# Better Setup
-If you want a better experience for these notes:
-1. Download Obsidian [https://obsidian.md/](https://obsidian.md/) ,
-2. clone this vault from [Github Repo](https://github.com/alKerim/TheoVault) and
-4. open the cloned folder in Obsidian.
-5. pull every now and then for updates
-
 
 # Useful Overviews
 [[Organisatorisches]]
