@@ -2,7 +2,7 @@ This is an [Obsidian Vault](https://obsidian.md/) with my notes on the lecture "
 
 # Conceptual notes
 I came across conceptual notetaking the last year. 
-This new way of taking notes for lecture not in a sequential "Zusammenfassung", but rather in small notes that are digital and therefore easily **searchable**, proved itself to be worthwhile. 
+This new way of taking notes for lectures not in a sequential "Zusammenfassung", but rather in small notes that are digital and therefore easily **searchable**, proved itself to be worthwhile. 
 - Taking notes during lectures is easy and I can just write down random thoughts into new notes
 - Going over notes either after lecture or during tutoriums
 - Using notes during tutoriums to
@@ -13,13 +13,17 @@ This new way of taking notes for lecture not in a sequential "Zusammenfassung", 
 
 
 # Availability
-You can navigate this Obsidian Vault on the left hand side through the folder structure.
+Two 
+- Web hosted version here: https://theo-s24.alkerim.com/
+- Clone repo & use in obsidian. See below under [[#Better Setup]]
+
+In the web version you can navigate this Obsidian Vault on the left hand side through the folder structure.
 The search function works very well in web too (better in Obsidian tho).
 There are many links within the notes, which can help you access some definitions or references very easily to help you understand better.
 
 # Better Setup
 If you want a better experience for these notes:
-1. Download Obsidian [https://obsidian.md/](https://obsidian.md/) ,
+1. download Obsidian [https://obsidian.md/](https://obsidian.md/) ,
 2. clone this folder from [Github Repo](https://github.com/alKerim/TheoVault) and
 4. open the cloned folder in Obsidian.
 5. pull every now and then for updates (updates only until end of August 2024 hoffentlich)
@@ -28,4 +32,4 @@ If you want a better experience for these notes:
 _____
 
 # Organisatorisches
-Important links, Altklausuren, Tipps, etc. : [[README-Theo]]
+Important links, Altklausuren, Tipps, etc. : [Organisatorisches](https://theo-s24.alkerim.com/docs/readme-theo/)
